@@ -1,0 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik:ital,wght@0,300;1,500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* hero animation slow down */
+/* .animate-spin{
+    @apply  animation  
+} */
+
+/* about cursive  */
+.about-cursive {
+    font-family: "Pacifico", 'cursive';
+  }
