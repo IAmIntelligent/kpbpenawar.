@@ -7,7 +7,7 @@ const Contact: React.FC = () => {
         <div className="max-w-3xl mx-auto">
          <p className="about-cursive ">Food Menu</p>
           <h2 className="text-3xl font-semibold text-center mb-8">Most Popular Items</h2>
-          <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <form className="grid grid-cols-0 flex-col md:grid-cols-2 gap-6" action="#">
             <div>
               <label className="block mb-2 font-bold" htmlFor="name">
                 Your Name

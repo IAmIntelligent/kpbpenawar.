@@ -1,21 +1,32 @@
 import { FC } from "react";
-import ImageCard from "./ImageCard";
-import { galleryItems } from "../assets/utlity";
+import { ImageCard } from "../paths";
+import { activityGalleries, galleryItems } from "../assets/utlity";
 interface galleryPros {
-    fullName:string;
-     position:string;
-     image:string
+  fullName: string;
+  position: string;
+  image: string;
 }
 const ImageGalleries: FC<galleryPros> = () => {
   return (
     <div>
-      <div>
+      <div className="text-center mt-10">
         <p>Team Members</p>
-        <h1>Our Master Chefs</h1>
+        <h1 className="text-2xl font-bold">Our Master Chefs</h1>
       </div>
-      {galleryItems?.map((item, index) => {
-        return <ImageCard key={index} item={item} />;
-      })}
+      <div className="flex flex-wrap gap-4 justify-center my-10">
+       
+        {activityGalleries?.map(({ title, image }, index) => (
+          <ImageCard
+            key={index}
+            fullName={""}
+            position={""}
+            image={image}
+            title={title}
+            styles={`h-[300px] rounded-[1px]`}
+            group={""}
+          />
+        ))}
+      </div>
     </div>
   );
 };
