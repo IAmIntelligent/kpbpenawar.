@@ -6,7 +6,7 @@ const Service = () => {
   return (
     <div>
       <Hero backgroundImage={hero_images?.service_hero} animationImage="none" />
-      <div className="flex flex-wrap gap-5 mt-10">
+      {/* <div className="flex flex-wrap gap-5 mt-10">
         {CardText?.map((card, index) => (
           <div
             key={index}
@@ -18,7 +18,7 @@ const Service = () => {
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
 
       <div className="flex  flex-wrap gap-3">
         {services?.map(({ image, text }, index) => (
