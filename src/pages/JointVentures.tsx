@@ -1,5 +1,5 @@
 import { Hero, ImageCard } from "../paths";
-import { galleryItems, hero_images, jointVentures } from "../assets/utlity";
+import {  hero_images, jointVentures } from "../assets/utlity";
 
 const JointVentures = () => {
   return (

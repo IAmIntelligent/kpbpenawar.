@@ -1,4 +1,3 @@
-import React from "react";
 import { directorsGallery } from "../assets/utlity";
 import { Hero, ImageCard } from "../paths";
 

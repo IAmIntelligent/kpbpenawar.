@@ -1,4 +1,3 @@
-import React from "react";
 import { cardTextProps } from "../pages//Home";
 
 const TextCard: React.FC<cardTextProps> = ({ category, description }) => {

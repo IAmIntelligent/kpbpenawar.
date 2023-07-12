@@ -1,4 +1,3 @@
-import React from "react";
 import { About, Contact, Hero, TextCard } from "../paths";
 import { CardText } from "../assets/utlity";
 

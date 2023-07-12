@@ -1,5 +1,12 @@
 import { FC } from "react";
-import { About, Hero, ImageGalleries, NewsLetter, Testimonials, TextCard } from "../paths";
+import {
+  About,
+  Hero,
+  ImageGalleries,
+  NewsLetter,
+  Testimonials,
+  TextCard,
+} from "../paths";
 import {
   generalPrecautions,
   hero_images,
@@ -38,6 +45,7 @@ const AboutPage: FC<aboutProps> = () => {
       <div className="flex flex-wrap">
         {Values?.map((value, index) => (
           <TextCard
+            key={index}
             category={value.title}
             description={value.desc}
             headerPosition={""}
@@ -49,7 +57,9 @@ const AboutPage: FC<aboutProps> = () => {
       <div className="bg-1d232a py-8">
         <div className="container mx-auto">
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <h2 className="font-bold text-white shadow-slate-300 underline">GENERAL PRECAUTIONS</h2>
+            <h2 className="font-bold text-white shadow-slate-300 underline">
+              GENERAL PRECAUTIONS
+            </h2>
             {generalPrecautions.map((precaution, index) => (
               <li
                 key={index}
@@ -61,7 +71,9 @@ const AboutPage: FC<aboutProps> = () => {
           </ul>
 
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
-             <h2 className="font-bold text-white shadow-slate-300 underline">SAFETY IS A TEAM EFFORT</h2>
+            <h2 className="font-bold text-white shadow-slate-300 underline">
+              SAFETY IS A TEAM EFFORT
+            </h2>
             {teamEffort.map((guideline, index) => (
               <li
                 key={index}
@@ -73,7 +85,7 @@ const AboutPage: FC<aboutProps> = () => {
           </ul>
         </div>
       </div>
-      <NewsLetter/>
+      <NewsLetter />
     </div>
   );
 };

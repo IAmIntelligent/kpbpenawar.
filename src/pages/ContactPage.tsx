@@ -1,4 +1,3 @@
-import React from 'react'
 import { Contact, Hero } from '../paths'
 import { hero_images } from '../assets/utlity'
 

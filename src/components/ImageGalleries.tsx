@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { ImageCard } from "../paths";
-import { activityGalleries, galleryItems } from "../assets/utlity";
+import { activityGalleries,  } from "../assets/utlity";
 interface galleryPros {
   fullName: string;
   position: string;
