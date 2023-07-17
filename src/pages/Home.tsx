@@ -1,5 +1,4 @@
-import { About, Contact, Hero, TextCard } from "../paths";
-import { CardText } from "../assets/utlity";
+import { About, Contact, Hero } from "../paths";
 
 export interface cardTextProps {
   category: string;
@@ -11,10 +10,10 @@ const Home: React.FC<cardTextProps> = () => {
   return (
     <div className="relative">
       <Hero
-        animationImage="https://themewagon.github.io/restoran/img/hero.png"
-        backgroundImage="https://themewagon.github.io/restoran/img/bg-hero.jpg"
+        animationImage="/img/kpbpenwar_banner_rotation.png"
+        backgroundImage="/img/kpbpenwar_banner.jpg"
       />
-
+{/* 
       <div className="flex flex-wrap gap-5 mt-10">
         {CardText?.map((card, index) => (
           <TextCard
@@ -24,7 +23,7 @@ const Home: React.FC<cardTextProps> = () => {
             headerPosition={""}
           />
         ))}
-      </div>
+      </div> */}
 
       <About />
       <Contact />

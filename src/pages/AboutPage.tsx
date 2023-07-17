@@ -8,10 +8,11 @@ import {
   TextCard,
 } from "../paths";
 import {
+  aboutTextCard,
   generalPrecautions,
   hero_images,
   teamEffort,
-  Values,
+
 } from "../assets/utlity";
 
 interface aboutProps {
@@ -43,11 +44,11 @@ const AboutPage: FC<aboutProps> = () => {
         </p>
       </div>
       <div className="flex flex-wrap">
-        {Values?.map((value, index) => (
+        {aboutTextCard?.map((value, index) => (
           <TextCard
             key={index}
             category={value.title}
-            description={value.desc}
+            description={value.description}
             headerPosition={""}
           />
         ))}
@@ -85,7 +86,7 @@ const AboutPage: FC<aboutProps> = () => {
           </ul>
         </div>
       </div>
-      <NewsLetter />
+      <NewsLetter email={""} />
     </div>
   );
 };

@@ -10,10 +10,9 @@ export interface ImageCardProps {
 }
 
 const ImageCard: FC<ImageCardProps> = (
-  { fullName, position, image, styles, title, group },
-  index
+  { fullName, position, image, styles, title, group }
 ) => {
-  console.log(fullName, position, image, index);
+  // console.log(fullName, position, image, index);
   return (
     <div>
       {/* card 2 */}

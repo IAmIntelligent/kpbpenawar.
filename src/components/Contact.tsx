@@ -9,7 +9,7 @@ const Contact: React.FC = () => {
           <form className="grid grid-cols-0 flex-col md:grid-cols-2 gap-6" action="#">
             <div>
               <label className="block mb-2 font-bold" htmlFor="name">
-                Your Name
+                Name
               </label>
               <input
                 type="text"
@@ -27,32 +27,23 @@ const Contact: React.FC = () => {
                 className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
               />
             </div>
-            <div className="col-span-2">
-              <label className="block mb-2 font-semibold" htmlFor="datetime">
-                Date &amp; Time
-              </label>
-              <input
-                type="datetime-local"
-                id="datetime"
-                className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
-              />
-            </div>
+            
             <div>
-              <label className="block mb-2 font-semibold" htmlFor="people">
-                No Of People
+              <label className="block mb-2 font-semibold" htmlFor="subject">
+                Suject
               </label>
               <input
-                type="number"
-                id="people"
+                type="text"
+                id="subject"
                 className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
               />
             </div>
             <div className="col-span-2">
-              <label className="block mb-2 font-semibold" htmlFor="request">
-                Special Request
+              <label className="block mb-2 font-semibold" htmlFor="message">
+                Message
               </label>
               <textarea
-                id="request"
+                id="message"
                 className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
               ></textarea>
             </div>

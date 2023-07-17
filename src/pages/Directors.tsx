@@ -12,7 +12,7 @@ const Directors = () => {
             fullName={""}
             position={""}
             image={director}
-            styles={"h-[300px] w-[300px] object-cover rounded-[1px]"}
+            styles={"w-[220px]  h-[220px] md:h-[300px] md:w-[300px] object-cover rounded-[1px]"}
             group = {"group"}
             title={""}
           />

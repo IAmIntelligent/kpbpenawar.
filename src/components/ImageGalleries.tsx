@@ -22,7 +22,7 @@ const ImageGalleries: FC<galleryPros> = () => {
             position={""}
             image={image}
             title={title}
-            styles={`h-[300px] rounded-[1px]`}
+            styles={`w-[220px]  h-[220px] md:h-[300px] md:w-[300px] object-contain rounded-[1px]`}
             group={""}
           />
         ))}

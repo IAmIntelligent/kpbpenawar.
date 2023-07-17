@@ -1,35 +1,24 @@
 const About = () => {
   return (
-    <section className=" py-16 ">
-      <h1 className="about-cursive text-[#FEA116] text-xl">About Kbp penaewar sdn bhd</h1>
+    <section className=" py-16   ">
       <div className="container mx-auto px-4 flex">
-        <div className="w-full  mx-auto text-center">
-          {/* image s */}
-          <div className="w-full  flex flex-wrap">
-            <img
-              className="w-[210px] h-[210px]"
-              src="https://themewagon.github.io/restoran/img/about-1.jpg"
-              alt=""
-            />
-            <img
-              className="w-[150px] h-[150px]"
-              src="https://themewagon.github.io/restoran/img/about-2.jpg"
-              alt=""
-            />
-            <img
-              className="w-[210px] h-[210px]"
-              src="https://themewagon.github.io/restoran/img/about-3.jpg"
-              alt=""
-            />
-            <img
-              className="w-[150px] h-[150px]"
-              src="https://themewagon.github.io/restoran/img/about-4.jpg"
-              alt=""
-            />
+        <div className=" flex mx-auto text-center">
+          {/* image s  w-full lg:w-[50%]*/}
+          <div className=" w-full lg:w-[50%] flex flex-wrap gap-4 ">
+            <div className="  ">
+              <img
+                className="w-[210px] h-[210px] object-cover"
+                src="https://themewagon.github.io/restoran/img/about-1.jpg"
+                alt=""
+              />
+            </div>
+            
           </div>
 
-          <div>
-         
+          <div className="w-full lg:w-[50%]" >
+            <h1 className="about-cursive text-[#FEA116] text-xl">
+              About Kbp penaewar sdn bhd
+            </h1>
             <h4 className="text-[#FEA116] text-3xl font-bold">
               Welcome to KPB Penawar Sdn Bhd Malaysia.
             </h4>
@@ -90,8 +79,6 @@ const About = () => {
               </div>
             </div>
           </div>
-
-
         </div>
       </div>
     </section>

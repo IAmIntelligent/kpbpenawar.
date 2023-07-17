@@ -9,35 +9,67 @@ import service_hero from "/img/heros/service_hero_kpbpenawar.jpg";
 const headersLinks = [
   { name: "Home", link: "/" },
   { name: "About", link: "/about" },
-  { name: "Services", link: "/service" },
+  { name: "What We Do", link: "/What_We_Do" },
   { name: "Joint Ventures", link: "/JointVentures" },
   { name: "Directors", link: "/directors" },
   { name: "Gallery", link: "/Gallery" },
   { name: "Contact", link: "/contact" },
-];
+]
 
-const CardText = [
+const aboutTextCard = [
   {
-    category: "Master Chefs",
-    description:
-      "Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam",
+    title: "Experienced and Professional Team",
+    description: "Our most Experienced and Professional Team will Guide you to make every moment with us joyful and valuable.",
   },
   {
-    category: "Quality Food",
-    description:
-      "Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam",
+    title: "First Rate Services",
+    description: "We will support you with our extremely good and valuable services.",
   },
   {
-    category: "Online Order",
-    description:
-      "Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam",
+    title: "Round The Clock Assistance",
+    description: "We are in alert 24/7 to keep you feeling safe and secure with continuous services.",
   },
   {
-    category: "24/7 Service",
-    description:
-      "Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam",
+    title: "Triumph of Hospitality",
+    description: "We promise a commitment to hospitality that makes guests feel like kings.",
   },
-];
+]
+
+const serviceTextCard = [
+  {
+    title: "Operation and Maintenance",
+    image: "https://5.imimg.com/data5/CQ/YK/IH/SELLER-12363020/operation-and-maintenance-service-o-m-.png",
+  },
+  {
+    title: "Labour Management",
+    image: "https://www.bioknox.in/images/Features/CLMS/clms_head1.png",
+  },
+  {
+    title: "Labour Accommodation",
+    image: "https://5.imimg.com/data5/SELLER/Default/2023/2/GD/HO/NP/7665014/g-2-labour-accommodation-structure.jpg",
+  },
+  {
+    title: "Camp Management",
+    image: "https://blumont.org/wp-content/uploads/2022/02/C2MQ-5.jpeg",
+  },
+  {
+    title: "Food and Beverage Catering",
+    image: "https://www.tutorialspoint.com/food_and_beverage_services/images/self_service.jpg",
+  },
+  {
+    title: "Laundry",
+    image: "https://images.ctfassets.net/ajjw8wywicb3/7FmJC0yRrvfmxEkg0FAujA/2fc0d9df8fb6bbdc82a4ac1067a5d760/HOW_TO_WASH_CLOTHES_The_art_of_washing_different_fabric_370x320.jpg?fm=png",
+  },
+  {
+    title: "Housekeeping",
+    image: "https://itm.ac.in/Images/career-as-a-housekeeping-professional.webp",
+  },
+  {
+    title: "Transportation",
+    image: "https://i0.wp.com/www.techquintal.com/wp-content/uploads/2021/06/Transportation-Technology.jpg?fit=1366%2C768&ssl=1",
+  },
+]
+
 
 const galleryItems = [
   {
@@ -60,7 +92,7 @@ const galleryItems = [
     position: "Designation",
     image: "https://themewagon.github.io/restoran/img/team-4.jpg",
   },
-];
+]
 
 const hero_images = {
   about_hero,
@@ -70,7 +102,7 @@ const hero_images = {
   joint_ventures_hero,
   sectors_hero,
   service_hero,
-};
+}
 
 const Values = [
   {
@@ -101,7 +133,7 @@ const Values = [
     title: "engagement",
     desc: "Engagement: Partnering with our staff, clients, and the communities we serve. One team, one goal, working together for sustainable relationships.",
   },
-];
+]
 
 const process = [
   {
@@ -140,7 +172,7 @@ const process = [
   {
     description: "Establish spare parts and consumable procurement process",
   },
-];
+]
 
 const generalPrecautions = [
   {
@@ -188,7 +220,7 @@ const generalPrecautions = [
   {
     name: "Strained backs and sliced fingers may be more popular in your workspace than would the risk of flooding (as in a basement office) or the risk of wild animals cutting loose.",
   },
-];
+]
 
 const teamEffort = [
   {
@@ -212,7 +244,7 @@ const teamEffort = [
   {
     name: "If you’re an employer, invite and involve your employees in safety planning; obtain their insight, give and take suggestions, and ensure that everyone is on the same page.",
   },
-];
+]
 import gallery1 from "/img/galleries/1.jpg";
 import gallery2 from "/img/galleries/2.jpg";
 import gallery3 from "/img/galleries/3.jpg";
@@ -245,7 +277,7 @@ const activityGalleries = [
   { image: gallery13, title: "Indoor Activities" },
   { image: gallery14, title: "Outdoor Activities" },
   { image: gallery15, title: "Canteen Area" },
-];
+]
 
 import director1 from "/img/directors/1.jpg";
 import director2 from "/img/directors/2.jpg";
@@ -266,7 +298,7 @@ const directorsGallery = [
   director7,
   director8,
   director9,
-];
+]
 
 import service1 from "/img/services/KPB-Penawar-service1.jpeg";
 import service2 from "/img/services/KPB-Penawar-service2.jpeg";
@@ -398,7 +430,8 @@ const jointVentures = [
 
 export {
   headersLinks,
-  CardText,
+  aboutTextCard,
+  serviceTextCard,
   galleryItems,
   hero_images,
   Values,
