@@ -10,65 +10,83 @@ const headersLinks = [
   { name: "Home", link: "/" },
   { name: "About", link: "/about" },
   { name: "What We Do", link: "/What_We_Do" },
-  { name: "Joint Ventures", link: "/JointVentures" },
-  { name: "Directors", link: "/directors" },
-  { name: "Gallery", link: "/Gallery" },
+  { name: "Our client", link: "/OurClient" },
+  { name: "Career", link: "/career" },
+  // { name: "Gallery", link: "/Gallery" },
   { name: "Contact", link: "/contact" },
 ]
-
-const aboutTextCard = [
-  {
-    title: "Experienced and Professional Team",
-    description: "Our most Experienced and Professional Team will Guide you to make every moment with us joyful and valuable.",
-  },
-  {
-    title: "First Rate Services",
-    description: "We will support you with our extremely good and valuable services.",
-  },
-  {
-    title: "Round The Clock Assistance",
-    description: "We are in alert 24/7 to keep you feeling safe and secure with continuous services.",
-  },
-  {
-    title: "Triumph of Hospitality",
-    description: "We promise a commitment to hospitality that makes guests feel like kings.",
-  },
-]
+const aboutParagraph =  [
+  `We’re the people behind the operations & maintenances,
+  hospitality, food and support services that power your day, make
+  you smile and put a spring in your step. That’s just one of the
+  reason why we’re here for hospitality, catering and business
+  support service provider. KPB PENAWAR SDN BHD is purely 100%
+  malaysian bumiputera company incorporated in 2017. We one of most
+  preferred support services in provide (O&M) Operations and
+  Maintenance services of workers accommodation facilities located
+  Pengerang,Johor,Malaysia. And also surrounding area by Petronas
+  Integrated Complex (PIC), Pengerang Industrial Park (PIP),
+  Pengerang Echo Industrial Park (PEIP). We offer a broad range of
+  services for industrial and commercial establishments as well as
+  workers camp, hostel, residential complexes and individual homes
+  throughout Johor.`,
+  // Add more paragraphs if needed
+  `We take the time to understand each of our client's needs on an
+  individual basis, in order to ensure they receive from us the best
+  possible services for their premises. All projects undertaken by
+  us are handled by experienced, skilled and well-trained staff
+  using the latest equipment and quality materials to ensure that
+  the tasks are completed to the highest standards and on time.`,
+  `Clients in both public and private sectors continue to recognise
+  outsourcing as a route not only to reducing costs but also to
+  accessing expertise. We have enormous experience and our clients
+  know that by working with us they are benefiting from a track
+  record of delivery, trusted relationships and quality service. Put
+  simply, we hit the ground running and make a real difference from
+  day one.`,
+  `Today, clients increasingly want that ‘difference’ to be applied
+  to more and more individual services. Many clients initially
+  appoint us to provide a single service. Then, when we have proved
+  our value, they frequently move towards bundling a number of
+  services together – and there’s a clear trend towards bundled and
+  integrated FM, where we deliver a suite of services, often across
+  multiple sites. We see opportunities for great service and
+  consistent growth in all contracts – whether we are providing one
+  service or several.`,
+];
 
 const serviceTextCard = [
   {
     title: "Operation and Maintenance",
-    image: "https://5.imimg.com/data5/CQ/YK/IH/SELLER-12363020/operation-and-maintenance-service-o-m-.png",
+    description: "Our most Experienced and Professional Team will Guide you to make every moment with us joyful and valuable.",
   },
   {
     title: "Labour Management",
-    image: "https://www.bioknox.in/images/Features/CLMS/clms_head1.png",
+    description: "We will support you with our extremely good and valuable services.",
   },
   {
-    title: "Labour Accommodation",
-    image: "https://5.imimg.com/data5/SELLER/Default/2023/2/GD/HO/NP/7665014/g-2-labour-accommodation-structure.jpg",
+    title: "Labour Accomadation",
+    description: "We are in alert 24/7 to keep you feeling safe and secure with continuous services.",
   },
   {
     title: "Camp Management",
-    image: "https://blumont.org/wp-content/uploads/2022/02/C2MQ-5.jpeg",
+    description: "We promise a commitment to hospitality that makes guests feel like kings.",
   },
   {
     title: "Food and Beverage Catering",
-    image: "https://www.tutorialspoint.com/food_and_beverage_services/images/self_service.jpg",
+    description: "We promise a commitment to hospitality that makes guests feel like kings.",
   },
   {
-    title: "Laundry",
-    image: "https://images.ctfassets.net/ajjw8wywicb3/7FmJC0yRrvfmxEkg0FAujA/2fc0d9df8fb6bbdc82a4ac1067a5d760/HOW_TO_WASH_CLOTHES_The_art_of_washing_different_fabric_370x320.jpg?fm=png",
+    title: "Launtry",
+    description: "We promise a commitment to hospitality that makes guests feel like kings.",
   },
   {
-    title: "Housekeeping",
-    image: "https://itm.ac.in/Images/career-as-a-housekeeping-professional.webp",
-  },
-  {
-    title: "Transportation",
-    image: "https://i0.wp.com/www.techquintal.com/wp-content/uploads/2021/06/Transportation-Technology.jpg?fit=1366%2C768&ssl=1",
+    title: "House Keeping and Transportation",
+    description: "We promise a commitment to hospitality that makes guests feel like kings.",
   },
 ]
+
+
 
 
 const galleryItems = [
@@ -430,7 +448,6 @@ const jointVentures = [
 
 export {
   headersLinks,
-  aboutTextCard,
   serviceTextCard,
   galleryItems,
   hero_images,
@@ -442,4 +459,5 @@ export {
   directorsGallery,
   services,
   jointVentures,
+  aboutParagraph
 };

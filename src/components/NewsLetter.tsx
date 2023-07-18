@@ -5,7 +5,7 @@ interface NewLetterProps {
 const NewsLetter: FC<NewLetterProps> = () => {
 
   return (
-    <form className="flex flex-col items-center">
+    <form className="flex flex-col items-center my-10">
       <label htmlFor="email" className="text-center mb-2">
         Subscribe to Newsletter
       </label>

@@ -1,15 +1,15 @@
 import { Route, Routes } from "react-router-dom";
 import {
   AboutPage,
+  Career,
   ContactPage,
   Footer,
   Gallery,
   Header,
-  JointVentures,
+  OurCient,
   Service,
 } from "./paths";
 import Home from "./pages/Home";
-import Directors from "./pages/Directors";
 import { BsWhatsapp } from "react-icons/bs";
 
 function App() {
@@ -28,10 +28,10 @@ function App() {
           element={<AboutPage animationImage={""} backgroundImage={""} />}
         />
         <Route path="/What_We_Do" element={<Service />} />
-        <Route path="/JointVentures" element={<JointVentures />} />
-        <Route path="/Gallery" element={<Gallery />} />
+        <Route path="/OurClient" element={<OurCient />} />
+        {/* <Route path="/Gallery" element={<Gallery />} /> */}
         <Route path="/contact" element={<ContactPage />} />
-        <Route path="/directors" element={<Directors />} />
+        <Route path="/career" element={<Career />} />
       </Routes>
       <Footer />
 

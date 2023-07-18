@@ -1,6 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik:ital,wght@0,300;1,500&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik:ital,wght@0,300;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&family=Pacifico&family=Rubik:ital,wght@0,300;1,500&display=swap");
 
+/* font-family: 'Nunito Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Rubik', sans-serif; */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,5 +16,11 @@
 
 /* about cursive  */
 .about-cursive {
-    font-family: "Pacifico", 'cursive';
-  }
+  font-family: "Pacifico", "cursive";
+}
+.scroll-bar::-webkit-scrollbar {
+ @apply w-[20px] bg-slate-700 rounded-md
+}
+.scroll-bar::-webkit-scrollbar-button{
+    @apply bg-slate-500
+}

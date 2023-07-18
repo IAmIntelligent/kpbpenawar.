@@ -1,3 +1,5 @@
+import { Link, NavLink } from "react-router-dom";
+import { headersLinks } from "../assets/utlity";
 
 const Footer = () => {
   return (
@@ -5,36 +7,35 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-wrap">
           <div className="w-full md:w-1/3 lg:w-1/4 mb-4">
-            <h2 className="text-xl font-bold mb-2">OUR STORY</h2>
-            <ul className="list-none">
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#">About us</a>
-              </li>
-              <li>
-                <a href="#">Services</a>
-              </li>
-              <li>
-                <a href="#">Sectors</a>
-              </li>
-              <li>
-                <a href="#">Gallery</a>
-              </li>
-              <li>
-                <a href="#">Directors</a>
-              </li>
-              <li>
-                <a href="#">Joint Ventures</a>
-              </li>
-              <li>
-                <a href="#">Contact Us</a>
-              </li>
+            <h1 className="about-cursive text-[#FEA116] text-xl">Our Story</h1>
+            <ul className="">
+              {headersLinks?.map((link, index) => (
+                <li key={index}>
+                  <NavLink
+                    to={link.link}
+                    aria-readonly
+                    className={`
+                    
+                     `}
+                    aria-current="page"
+                  >
+                    {link.name}
+                  </NavLink>
+                </li>
+              ))}
             </ul>
           </div>
           <div className="w-full md:w-1/3 lg:w-1/4 mb-4">
-            <h2 className="text-xl font-bold mb-2">SERVICES</h2>
+            <h1 className="about-cursive text-[#FEA116] text-xl">Address</h1>
+            <p>
+              Lot 48, Jalan Jomis, Teluk Ramunia, Sungai Rengit, 81620
+              Pengerang, Johor, MALAYSIA
+            </p>
+            <p>+6011 1060 6649</p>
+            <p>info@kpbpenawar.com</p>
+          </div>
+          <div className="w-full md:w-1/3 lg:w-1/4 mb-4">
+            <h1 className="about-cursive text-[#FEA116] text-xl">Services</h1>
             <ul className="list-none">
               <li>Catering Services</li>
               <li>Laundry Service</li>
@@ -43,14 +44,30 @@ const Footer = () => {
             </ul>
           </div>
           <div className="w-full md:w-1/3 lg:w-1/4 mb-4">
-            <h2 className="text-xl font-bold mb-2">ADDRESS</h2>
-            <p>
-              Lot 48, Jalan Jomis, Teluk Ramunia, Sungai Rengit, 81620
-              Pengerang, Johor, MALAYSIA
-            </p>
-            <p>+6011 1060 6649</p>
-            <p>info@kpbpenawar.com</p>
+            <h1 className="about-cursive text-[#FEA116] text-xl">Services</h1>
+            <ul className="list-none">
+              <li>Catering Services</li>
+              <li>Laundry Service</li>
+              <li>Event Management</li>
+              <li>IT Support</li>
+            </ul>
           </div>
+        </div>
+        <div className="col-span-6 text-center md:text-left mb-3 md:mb-0">
+          ©{" "}
+          <a className="border-b" href="#">
+            Ekr.asia
+          </a>
+          , All Right Reserved. Designed By{" "}
+          <a className="border-b" href="https://htmlcodex.com">
+            Empire tech
+          </a>
+          <br />
+          <b />
+          Distributed By{" "}
+          <Link to="" className="border-b" target="_blank">
+            Ekr.asia @2023
+          </Link>
         </div>
       </div>
     </footer>

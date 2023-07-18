@@ -1,7 +1,7 @@
 import { Hero, ImageCard } from "../paths";
 import {  hero_images, jointVentures } from "../assets/utlity";
 
-const JointVentures = () => {
+const OurClient = () => {
   return (
     <div>
       <Hero
@@ -23,4 +23,4 @@ const JointVentures = () => {
   );
 };
 
-export default JointVentures;
+export default OurClient;

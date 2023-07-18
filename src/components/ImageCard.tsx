@@ -1,5 +1,6 @@
 import { FC } from "react";
 
+
 export interface ImageCardProps {
   fullName: string;
   position: string;
@@ -17,7 +18,8 @@ const ImageCard: FC<ImageCardProps> = (
     <div>
       {/* card 2 */}
       <div className={`card bg-base-100  shadow-xl ${group} `}>
-        <figure className={group && `relative`}>
+        <figure className={group && `relative rounded-full overflow-hidden `}>
+        
           <img src={image} alt="Shoes" className={styles} />
           <div
             className={`${
@@ -30,6 +32,7 @@ const ImageCard: FC<ImageCardProps> = (
         <div className="">
           <h2 className="card-title text-white">{fullName}</h2>
           <h4>{position}</h4>
+          <p>Social Icons</p>
           <div className="card-actions justify-end"></div>
         </div>
       </div>

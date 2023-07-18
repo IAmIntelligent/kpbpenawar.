@@ -1,7 +1,7 @@
 import { FC, useState, useEffect, MouseEvent } from "react";
 import { headersLinks } from "../assets/utlity";
 import { AiOutlineMenu } from "react-icons/ai";
-import {   NavLink,  useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 export interface headerProps {
   headerPosition: string;
@@ -15,10 +15,8 @@ const Header: FC<headerProps> = ({ headerPosition }) => {
 
   const { pathname } = useLocation();
 
-
-
   const handleButton = (e: MouseEvent<HTMLButtonElement>) => {
-    e.preventDefault()
+    e.preventDefault();
     setActiveIndex(0);
     setToggleMenu(!toggleMenu);
   };
@@ -26,17 +24,21 @@ const Header: FC<headerProps> = ({ headerPosition }) => {
   // screen not display same position but  top of the page after clicked any links in header
   useEffect(() => {
     window.scrollTo(0, 0);
-    setToggleMenu(true)
+    setToggleMenu(true);
   }, [pathname]);
 
   return (
-    <header className={headerPosition + " left-0 right-0 z-10 bg-gray-700/80 md:bg-transparent"}>
+    <header
+      className={
+        headerPosition + " left-0 right-0 z-10 bg-[#0F172B] md:bg-transparent"
+      }
+    >
       <nav className=" border-gray-200 px-4 lg:px-6 py-2.5 ">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <a href="#" className="flex items-center">
             <img
-              src="http://kpbpenawar.com/assets/images/kpbp-logo.png"
-              className="mr-3 h-6 sm:h-9"
+              src="/img/logo.jpg"
+              className="mr-3 h-6 sm:h-9 object-cover rounded-md"
               alt="logo"
             />
           </a>
@@ -63,7 +65,6 @@ const Header: FC<headerProps> = ({ headerPosition }) => {
               {headersLinks?.map((link, index) => (
                 <li key={index}>
                   <NavLink
-                    
                     to={link.link}
                     aria-readonly
                     className={`block py-2 pr-4 pl-3  border-b border-gray-100  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-[#fea116] lg:dark:hover:bg-transparent dark:border-gray-700   rounded-md 
@@ -80,6 +81,8 @@ const Header: FC<headerProps> = ({ headerPosition }) => {
                 </li>
               ))}
             </ul>
+
+            <button className="btn bg-[#FEA116]">Service</button>
           </div>
         </div>
       </nav>
