@@ -30,7 +30,7 @@ const Header: FC<headerProps> = ({ headerPosition }) => {
   return (
     <header
       className={
-        headerPosition + " left-0 right-0 z-10 bg-[#0F172B] md:bg-transparent"
+        headerPosition + " left-0 right-0 z-20 bg-[#0F172B] "
       }
     >
       <nav className=" border-gray-200 px-4 lg:px-6 py-2.5 ">
@@ -38,7 +38,7 @@ const Header: FC<headerProps> = ({ headerPosition }) => {
           <a href="#" className="flex items-center">
             <img
               src="/img/logo.jpg"
-              className="mr-3 h-6 sm:h-9 object-cover rounded-md"
+              className="mr-3 h-[60px] object-cover rounded-md"
               alt="logo"
             />
           </a>

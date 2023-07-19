@@ -13,7 +13,7 @@ import { BsWhatsapp } from "react-icons/bs";
 
 function App() {
   return (
-    <div className="relative ">
+    <div className="relative bg-white">
       <Header headerPosition={"fixed"} toggleMenu={""} activeIndex={0} />
       <Routes>
         {/*  👇🏽👇🏽👇🏽👇🏽 category={""} description={""} headerPosition={""} 

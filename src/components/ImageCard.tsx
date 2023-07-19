@@ -20,7 +20,7 @@ const ImageCard: FC<ImageCardProps> = (
   return (
     <div>
       {/* card 2 */}
-      <div className={`card bg-base-100  shadow-xl ${group} `}>
+      <div className={`card  shadow-xl ${group} `}>
         <figure className={group && `relative rounded-full overflow-hidden `}>
         
           <img src={image} alt="Shoes" className={styles} />

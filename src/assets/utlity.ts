@@ -81,9 +81,13 @@ const serviceTextCard = [
     description: "We promise a commitment to hospitality that makes guests feel like kings.",
   },
   {
-    title: "House Keeping and Transportation",
+    title: "House Keeping",
     description: "We promise a commitment to hospitality that makes guests feel like kings.",
   },
+  {
+    title:" Transportation",
+    description:"We promise a commitment to hospitality that makes guests feel like kings."
+  }
 ]
 
 

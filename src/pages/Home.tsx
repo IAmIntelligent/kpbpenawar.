@@ -19,7 +19,7 @@ const Home: React.FC<cardTextProps> = () => {
       </div>
 
       <div className=" px-5 lg:px-20">
-        <h1 className="about-cursive text-[#FEA116] text-center text-xl mb-5">
+        <h1 className="about-cursive text-[#FEA116] text-center text-xl lg:text-3xl mb-5">
           Team members
         </h1>
         <div className="flex flex-wrap gap-4 text-center ">
