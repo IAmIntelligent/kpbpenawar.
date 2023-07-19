@@ -3,7 +3,7 @@ import { headersLinks } from "../assets/utlity";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white static top-[100px] right-0 left-0 ">
+    <footer className="px-5 md:px-20 bg-gray-900 text-white static top-[100px] right-0 left-0 ">
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-wrap">
           <div className="w-full md:w-1/3 lg:w-1/4 mb-4">

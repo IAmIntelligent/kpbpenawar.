@@ -31,7 +31,7 @@ const About = () => {
             {/* </div> */}
           </div>
 
-          <div className="w-full lg:w-[50%]">
+          <div className="w-full mt-10 md:mt-0 lg:w-[50%]">
             <h1 className="about-cursive text-[#FEA116] text-xl">About</h1>
             <h4 className="text-[#FEA116] text-3xl font-bold">
               Welcome to Embunan kristal Resources.

@@ -1,7 +1,7 @@
 import { FC, useState, useEffect, MouseEvent } from "react";
 import { headersLinks } from "../assets/utlity";
 import { AiOutlineMenu } from "react-icons/ai";
-import { NavLink, useLocation } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 
 export interface headerProps {
   headerPosition: string;
@@ -82,10 +82,11 @@ const Header: FC<headerProps> = ({ headerPosition }) => {
               ))}
             </ul>
 
-            <button className="btn bg-[#FEA116]">Service</button>
+           <Link to={`/What_We_Do`}> <button className="btn hidden lg:block ml-3 bg-[#FEA116]">Service</button></Link>
           </div>
         </div>
       </nav>
+
     </header>
   );
 };

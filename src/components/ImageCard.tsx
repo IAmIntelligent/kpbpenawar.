@@ -1,4 +1,7 @@
 import { FC } from "react";
+import { AiFillInstagram, AiFillTwitterCircle } from "react-icons/ai";
+import { BsFacebook } from "react-icons/bs";
+
 
 
 export interface ImageCardProps {
@@ -29,14 +32,13 @@ const ImageCard: FC<ImageCardProps> = (
           ></div>
         </figure>
         <p> {title && title}</p>
-        <div className="">
-          <h2 className="card-title text-white">{fullName}</h2>
+        <div className="flex flex-col items-center gap-3 py-3 lg:py-0">
+          <h2 className="card-title text-white ">{fullName}</h2>
           <h4>{position}</h4>
-          <p>Social Icons</p>
-          <div className="card-actions justify-end"></div>
+          <p className="flex gap-3"><BsFacebook/>  <AiFillTwitterCircle/> <AiFillInstagram/></p>
         </div>
       </div>
-    </div>
+      </div>
   );
 };
 

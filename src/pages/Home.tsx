@@ -14,9 +14,11 @@ const Home: React.FC<cardTextProps> = () => {
         animationImage="/img/kpbpenwar_banner_rotation.png"
         backgroundImage="/img/kpbpenwar_banner.jpg"
       />
-      <About />
+      <div className="px-20">
+        <About />
+      </div>
 
-      <div className="px-10">
+      <div className=" px-5 lg:px-20">
         <h1 className="about-cursive text-[#FEA116] text-center text-xl mb-5">
           Team members
         </h1>
