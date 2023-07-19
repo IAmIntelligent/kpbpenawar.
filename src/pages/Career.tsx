@@ -39,7 +39,7 @@ const btnText = "text-[20px] font-semibold"
         <div className="flex flex-col md:flex-row justify-start items-center gap-5 px-10 py-10">
 
          <div className="">
-         {[1, 2, ].map((item) => (
+         {[1, 2 ].map((item) => (
             <div className="flex  items-center gap-5">
               <img
                 src="https://img2.exportersindia.com/product_images/bc-full/2018/9/5908404/office-housekeeping-services-1538023442-4341242.jpg"
@@ -47,7 +47,7 @@ const btnText = "text-[20px] font-semibold"
                 className="w-[150px] h-[150px] object-contain"
               />
               <div>
-                <h3 className="text-[20px] font-bold">Cleainig Staff</h3>
+                <h3 className="text-[20px] font-bold">{item}Cleainig Staff</h3>
                 <hr />
                 <p className="font-sans italic" >Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
               </div>
@@ -63,7 +63,7 @@ const btnText = "text-[20px] font-semibold"
                 className="w-[150px] h-[150px] object-contain"
               />
               <div>
-                <h3 className="text-[20px] font-bold">Cleainig Staff</h3>
+                <h3 className="text-[20px] font-bold">{item}Cleainig Staff</h3>
                 <hr />
                 <p className="font-sans italic" >Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
               </div>
@@ -79,7 +79,7 @@ const btnText = "text-[20px] font-semibold"
   {/* Testimonial Card 1 */}
   {[1,2,3].map((item)=><div className="bg-gray-800 p-6 rounded-lg shadow-lg">
     <div className="text-white mb-4">
-      <h3 className="text-xl font-semibold">John Doe</h3>
+      <h3 className="text-xl font-semibold">{item}John Doe</h3>
       <p className="text-sm opacity-75">CEO, Company XYZ</p>
     </div>
     <p className="text-gray-300">

@@ -8,7 +8,7 @@ interface HeroPorps {
 const Hero: FC<HeroPorps> = ({ backgroundImage, animationImage }) => {
   return (
     <div
-      className="hero h-[110vhv] md:h-[90vh] relative z-0 overflow-hidden"
+      className="hero hero-bg h-[110vhv] md:h-[90vh] relative z-0 overflow-hidden"
       style={{
         backgroundImage: `url(${backgroundImage})`,
       }}

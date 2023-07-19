@@ -4,7 +4,6 @@ import {
   Career,
   ContactPage,
   Footer,
-  Gallery,
   Header,
   OurCient,
   Service,
