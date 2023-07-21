@@ -20,7 +20,7 @@ const Header: FC<headerProps> = ({ headerPosition }) => {
     setActiveIndex(0);
     setToggleMenu(!toggleMenu);
   };
-
+console.log(window.pageXOffset)
   // screen not display same position but  top of the page after clicked any links in header
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -82,7 +82,7 @@ const Header: FC<headerProps> = ({ headerPosition }) => {
               ))}
             </ul>
 
-           <Link to={`/What_We_Do`}> <button className="btn hidden lg:block ml-3 bg-[#FEA116]">Service</button></Link>
+           <Link to={`/What_We_Do`}> <button className="btn hidden lg:block ml-3 bg-[#FEA116] text-black hover:text-white">Service</button></Link>
           </div>
         </div>
       </nav>

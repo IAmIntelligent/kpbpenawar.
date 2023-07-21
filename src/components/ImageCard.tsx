@@ -1,8 +1,10 @@
 import { FC } from "react";
-import { AiFillInstagram, AiFillTwitterCircle } from "react-icons/ai";
-import { BsFacebook } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
+import { GrServices } from "react-icons/gr";
 
-
+interface Icon {
+  [index: number]: JSX.Element;
+}
 
 export interface ImageCardProps {
   fullName: string;
@@ -11,18 +13,24 @@ export interface ImageCardProps {
   styles: string;
   title: string;
   group: string;
+  icon: string[];
 }
 
-const ImageCard: FC<ImageCardProps> = (
-  { fullName, position, image, styles, title, group }
-) => {
-  // console.log(fullName, position, image, index);
+const ImageCard: FC<ImageCardProps> = ({
+  fullName,
+  position,
+  image,
+  styles,
+  title,
+  group,
+  icon,
+}) => {
+  console.log(icon);
   return (
     <div>
       {/* card 2 */}
       <div className={`card  shadow-xl ${group} `}>
-        <figure className={group && `relative rounded-full overflow-hidden `}>
-        
+        <figure className={group && `relative  overflow-hidden `}>
           <img src={image} alt="Shoes" className={styles} />
           <div
             className={`${
@@ -31,14 +39,23 @@ const ImageCard: FC<ImageCardProps> = (
             } `}
           ></div>
         </figure>
-        <p> {title && title}</p>
-        <div className="flex flex-col items-center gap-3 py-3 lg:py-0">
-          <h2 className="card-title text-white ">{fullName}</h2>
-          <h4>{position}</h4>
-          <p className="flex gap-3"><BsFacebook/>  <AiFillTwitterCircle/> <AiFillInstagram/></p>
-        </div>
+        {(title || fullName) && (
+          <div className="flex flex-col items-center gap-3 py-3 lg:-py-5 ">
+            {title && <p> {title}</p>}
+            {fullName && <h2 className="card-title  ">{fullName}</h2>}
+            <h4>{position}</h4>
+            {/* {icon && <p className="flex gap-3"><{icon}/></p> } */}
+            {icon.length > 0 && (
+              <p className="flex gap-3">
+                <BsInstagram />
+                <BsTwitter />
+                <BsFacebook />
+              </p>
+            )}
+          </div>
+        )}
       </div>
-      </div>
+    </div>
   );
 };
 

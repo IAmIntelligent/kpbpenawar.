@@ -7,7 +7,7 @@ export { default as SectorsImageCard } from "./components/SectorsImageCard";
 export { default as TextCard } from "./components/TextCard";
 export { default as About } from "./components/About";
 export { default as Contact } from "./components/Contact";
-export { default as AboutPage } from "./pages/AboutPage";
+export { default as OurCompanyPage } from "./pages/OurCompanyPage";
 export { default as Service } from "./pages/Service";
 export { default as Gallery } from "./pages/Gallery";
 export { default as OurCient } from "./pages/OurCient";

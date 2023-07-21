@@ -9,7 +9,7 @@ const Career = () => {
   const btnText = "text-[15px] md:text-[20px] hover:text-white font-semibold";
   return (
     <div>
-      <Hero animationImage={"none"} backgroundImage={""} />
+      <Hero animationImage={"none"} backgroundImage={""} title={""} button={""} height="h-[40vh]" />
 
       <div className="overflow-x-auto  font-mono py-10 ">
         <h4 className="text-[#FEA116] text-[25px] md:text-4xl font-bold text-center py-3">

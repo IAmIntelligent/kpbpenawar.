@@ -1,14 +1,24 @@
 import { FC } from "react";
+import { Link } from "react-router-dom";
 
 interface HeroPorps {
   animationImage: string;
   backgroundImage: string;
+  title: string;
+  button: string;
+  height:string
 }
 
-const Hero: FC<HeroPorps> = ({ backgroundImage, animationImage }) => {
+const Hero: FC<HeroPorps> = ({
+  backgroundImage,
+  animationImage,
+  title,
+  button,
+  height
+}) => {
   return (
     <div
-      className="hero hero-bg h-[110vhv] md:h-[90vh] relative z-0 overflow-hidden"
+      className={`hero hero-bg ${height}  relative z-0 overflow-hidden`}
       style={{
         backgroundImage: `url(${backgroundImage})`,
       }}
@@ -18,21 +28,21 @@ const Hero: FC<HeroPorps> = ({ backgroundImage, animationImage }) => {
 
       <div className="hero-content flex  flex-col mt-[90px] md:mt-[40px] md:flex-row w-full justify-start ">
         <div className="col-span-6 lg:col-span-6 text-center lg:text-left md:w-[500px] relative z-50 md:pl-[90px]">
-          <h1 className="text-[30px] md:text-3xl font-[800] text-white animated slideInLeft font-nunito tracking-wide mb-[15px] md:leading-[50px]  " >
+          <h1 className="text-[30px] md:text-3xl font-[800] text-white animated slideInLeft font-nunito tracking-wide mb-[15px] md:leading-[50px]  ">
             Welcome to <br />
             Embunan Kristal Resources.
           </h1>
-          <p className="text-white animated slideInLeft mb-4 pb-2">
-            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-            diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
-            lorem sit clita duo justo magna dolore erat amet
-          </p>
-          <a
-            href=""
-            className="bg-[#FEA116] text-white font-semibold py-2 px-4 rounded-lg inline-block animated slideInLeft"
-          >
-            Read more
-          </a>
+          {title && (
+            <p className="text-white animated slideInLeft mb-4 pb-2">{title}</p>
+          )}
+          {button && (
+            <Link
+              to=""
+              className="bg-[#FEA116] text-white font-semibold py-2 px-4 rounded-lg inline-block animated slideInLeft"
+            >
+              Read more
+            </Link>
+          )}
         </div>
 
         <img

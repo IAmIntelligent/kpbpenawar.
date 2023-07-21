@@ -1,10 +1,21 @@
+import { GrServices } from "react-icons/gr";
 import { cardTextProps } from "../pages//Home";
 
-const TextCard: React.FC<cardTextProps> = ({ category, description }) => {
+interface TextCardProps {
+  key:number
+  category:string,
+  description:string,
+  headerPosition:string,
+  icon:React.ElementType
+}
+
+const TextCard: React.FC<TextCardProps> = ({ category, description ,icon}) => {
   return (
     <div>
       {/* card1 */}
+      {icon &&   <GrServices/> || <icon/> }
       <div className="card rounded-none w-[300px] bg-[#171d2d]/70 h-[300px] text-primary-content hover:bg-[#fea116]">
+
         <div className="card-body">
           <h2 className="card-title">{category}</h2>
           <p>{description}</p>

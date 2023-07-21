@@ -6,16 +6,18 @@ import joint_ventures_hero from "/img/heros/joint-ventures_hero_kpbpenawar.jpg";
 import sectors_hero from "/img/heros/sectors_hero_kpbpenawar.jpg";
 import service_hero from "/img/heros/service_hero_kpbpenawar.jpg";
 
+import { GrServices } from "react-icons/gr";
+
 const headersLinks = [
   { name: "Home", link: "/" },
-  { name: "About", link: "/about" },
+  { name: "Our Company", link: "/Our_company" },
   { name: "What We Do", link: "/What_We_Do" },
   { name: "Our client", link: "/OurClient" },
   { name: "Career", link: "/career" },
-  // { name: "Gallery", link: "/Gallery" },
+  { name: "Gallery", link: "/Gallery" },
   { name: "Contact", link: "/contact" },
-]
-const aboutParagraph =  [
+];
+const aboutParagraph = [
   `We’re the people behind the operations & maintenances,
   hospitality, food and support services that power your day, make
   you smile and put a spring in your step. That’s just one of the
@@ -58,40 +60,53 @@ const aboutParagraph =  [
 const serviceTextCard = [
   {
     title: "Operation and Maintenance",
-    description: "Our most Experienced and Professional Team will Guide you to make every moment with us joyful and valuable.",
+    description:
+      "Our most Experienced and Professional Team will Guide you to make every moment with us joyful and valuable.",
+    icon: GrServices as React.ElementType,
   },
   {
     title: "Labour Management",
-    description: "We will support you with our extremely good and valuable services.",
+    description:
+      "We will support you with our extremely good and valuable services.",
+    icon: GrServices,
   },
   {
     title: "Labour Accomadation",
-    description: "We are in alert 24/7 to keep you feeling safe and secure with continuous services.",
+    description:
+      "We are in alert 24/7 to keep you feeling safe and secure with continuous services.",
+    icon: GrServices,
   },
   {
     title: "Camp Management",
-    description: "We promise a commitment to hospitality that makes guests feel like kings.",
+    description:
+      "We promise a commitment to hospitality that makes guests feel like kings.",
+    icon: GrServices,
   },
   {
     title: "Food and Beverage Catering",
-    description: "We promise a commitment to hospitality that makes guests feel like kings.",
+    description:
+      "We promise a commitment to hospitality that makes guests feel like kings.",
+    icon: GrServices,
   },
   {
     title: "Launtry",
-    description: "We promise a commitment to hospitality that makes guests feel like kings.",
+    description:
+      "We promise a commitment to hospitality that makes guests feel like kings.",
+    icon: GrServices,
   },
   {
     title: "House Keeping",
-    description: "We promise a commitment to hospitality that makes guests feel like kings.",
+    description:
+      "We promise a commitment to hospitality that makes guests feel like kings.",
+    icon: GrServices,
   },
   {
-    title:" Transportation",
-    description:"We promise a commitment to hospitality that makes guests feel like kings."
-  }
-]
-
-
-
+    title: " Transportation",
+    description:
+      "We promise a commitment to hospitality that makes guests feel like kings.",
+    icon: GrServices,
+  },
+];
 
 const galleryItems = [
   {
@@ -114,7 +129,7 @@ const galleryItems = [
     position: "Designation",
     image: "https://themewagon.github.io/restoran/img/team-4.jpg",
   },
-]
+];
 
 const hero_images = {
   about_hero,
@@ -124,7 +139,7 @@ const hero_images = {
   joint_ventures_hero,
   sectors_hero,
   service_hero,
-}
+};
 
 const Values = [
   {
@@ -155,7 +170,7 @@ const Values = [
     title: "engagement",
     desc: "Engagement: Partnering with our staff, clients, and the communities we serve. One team, one goal, working together for sustainable relationships.",
   },
-]
+];
 
 const process = [
   {
@@ -194,7 +209,7 @@ const process = [
   {
     description: "Establish spare parts and consumable procurement process",
   },
-]
+];
 
 const generalPrecautions = [
   {
@@ -242,7 +257,7 @@ const generalPrecautions = [
   {
     name: "Strained backs and sliced fingers may be more popular in your workspace than would the risk of flooding (as in a basement office) or the risk of wild animals cutting loose.",
   },
-]
+];
 
 const teamEffort = [
   {
@@ -266,7 +281,7 @@ const teamEffort = [
   {
     name: "If you’re an employer, invite and involve your employees in safety planning; obtain their insight, give and take suggestions, and ensure that everyone is on the same page.",
   },
-]
+];
 import gallery1 from "/img/galleries/1.jpg";
 import gallery2 from "/img/galleries/2.jpg";
 import gallery3 from "/img/galleries/3.jpg";
@@ -299,7 +314,7 @@ const activityGalleries = [
   { image: gallery13, title: "Indoor Activities" },
   { image: gallery14, title: "Outdoor Activities" },
   { image: gallery15, title: "Canteen Area" },
-]
+];
 
 import director1 from "/img/directors/1.jpg";
 import director2 from "/img/directors/2.jpg";
@@ -311,16 +326,16 @@ import director7 from "/img/directors/7.jpg";
 import director8 from "/img/directors/8.jpg";
 import director9 from "/img/directors/9.jpg";
 const directorsGallery = [
-  director1,
-  director2,
-  director3,
-  director4,
-  director5,
-  director6,
-  director7,
-  director8,
-  director9,
-]
+  { image: director1, icon: GrServices },
+  { image: director2, icon: GrServices },
+  { image: director3, icon: GrServices },
+  { image: director4, icon: GrServices },
+  { image: director5, icon: GrServices },
+  { image: director6, icon: GrServices },
+  { image: director7, icon: GrServices },
+  { image: director8, icon: GrServices },
+  { image: director9, icon: GrServices },
+];
 
 import service1 from "/img/services/KPB-Penawar-service1.jpeg";
 import service2 from "/img/services/KPB-Penawar-service2.jpeg";
@@ -450,6 +465,64 @@ const jointVentures = [
   },
 ];
 
+// FILTERD GALLERY
+import icecream1 from "/img/filterGallery/icecream1.jpg";
+import icecream2 from "/img/filterGallery/icecream2.jpg";
+import icecream3 from "/img/filterGallery/icecream3.jpg";
+import icecream4 from "/img/filterGallery/icecream4.jpg";
+import cow1 from "/img/filterGallery/cow1.jpg";
+import cow2 from "/img/filterGallery/cow2.jpg";
+import electronics1 from "/img/filterGallery/electronics1.jpg";
+import electronics2 from "/img/filterGallery/electronics2.jpg";
+import fish1 from "/img/filterGallery/fish1.jpg";
+import fish2 from "/img/filterGallery/fish2.jpg";
+import fish3 from "/img/filterGallery/fish3.jpg";
+import fish4 from "/img/filterGallery/fish4.jpg";
+import fruit1 from "/img/filterGallery/fruit1.jpg";
+import fruit2 from "/img/filterGallery/fruit2.jpg";
+import goat1 from "/img/filterGallery/goat1.jpg";
+import goat2 from "/img/filterGallery/goat2.jpg";
+import goat3 from "/img/filterGallery/goat3.jpg";
+import hen1 from "/img/filterGallery/hen1.jpg";
+import hen2 from "/img/filterGallery/hen2.jpg";
+import hen3 from "/img/filterGallery/hen3.jpg";
+import hen4 from "/img/filterGallery/hen4.jpg";
+import parler1 from "/img/filterGallery/parler1.jpg";
+import veg1 from "/img/filterGallery/veg1.jpg";
+import veg2 from "/img/filterGallery/veg2.jpg";
+import veg3 from "/img/filterGallery/veg3.jpg";
+import veg4 from "/img/filterGallery/veg4.jpg";
+
+const filterdGallery = [
+  { image: icecream1, category: "Ice Cream Parlour" },
+  { image: icecream2, category: "Ice Cream Parlour" },
+  { image: icecream3, category: "Ice Cream Parlour" },
+  { image: icecream4, category: "Ice Cream Parlour" },
+  { image: parler1, category: "Ice Cream Parlour" },
+  { image: electronics2, category: "Technology IT Products" },
+  { image: electronics1, category: "Technology IT Products" },
+  { image: hen1, category: "Poultry Farming Chickens" },
+  { image: hen2, category: "Poultry Farming Chickens" },
+  { image: hen3, category: "Poultry Farming Chickens" },
+  { image: hen4, category: "Poultry Farming Chickens" },
+  { image: goat1, category: "Cattles Farming Goat" },
+  { image: goat2, category: "Cattles Farming Goat" },
+  { image: goat3, category: "Cattles Farming Cows" },
+  { image: cow1, category: "Cattles Farming Cows" },
+  { image: cow2, category: "Fish Farming Ponds" },
+  { image: fish1, category: "Fish Farming Ponds" },
+  { image: fish3, category: "Fish Farming Ponds" },
+  { image: fish4, category: "Fish Farming Ponds" },
+  { image: fish2, category: "Fish Farming Ponds" },
+  { image: fruit1, category: "Fruits farming" },
+  { image: fruit2, category: "Fruits farming" },
+  { image: icecream1, category: "Fruits farming" },
+  { image: veg1, category: "Vegetables Farming" },
+  { image: veg2, category: "Vegetables Farming" },
+  { image: veg3, category: "Vegetables Farming" },
+  { image: veg4, category: "Vegetables Farming" },
+];
+
 export {
   headersLinks,
   serviceTextCard,
@@ -463,5 +536,6 @@ export {
   directorsGallery,
   services,
   jointVentures,
-  aboutParagraph
+  aboutParagraph,
+  filterdGallery,
 };

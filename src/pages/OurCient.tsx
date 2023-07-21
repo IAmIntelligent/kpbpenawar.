@@ -6,9 +6,8 @@ const OurClient = () => {
     <div>
       <Hero
         animationImage="none"
-        backgroundImage={hero_images.joint_ventures_hero}
-      />
-      <div className="flex flex-wrap gap-4 justify-center my-10">
+        backgroundImage={hero_images.joint_ventures_hero} title={""} button={""} height="h-[40vh]"     />
+      <div className=" flex flex-wrap gap-4 justify-center my-10 ">
         {jointVentures?.map(({  image, title }, index) => (
           <ImageCard 
             key={index}
@@ -16,7 +15,8 @@ const OurClient = () => {
             position={""}
             image={image}
             title={title}
-            styles=" object-fill h-[150px]" group={""}          />
+            styles=" object-fill h-[300px] w-[300px] object-cover" group={"px-4"} icon={[]} 
+          />
         ))}
       </div>
     </div>

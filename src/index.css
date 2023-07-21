@@ -21,8 +21,7 @@ font-family: 'Rubik', sans-serif; */
   font-family: "Pacifico", "cursive";
 }
 .scroll-bar::-webkit-scrollbar {
- @apply w-[20px] bg-slate-700 rounded-md
-}
-.scroll-bar::-webkit-scrollbar-button{
-    @apply bg-slate-500
-}
+ @apply hidden
+ }
+/* .scroll-bar::-webkit-scrollbar-button{ */
+    /* @apply bg-slate-500 */

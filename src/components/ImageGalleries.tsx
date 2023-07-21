@@ -10,8 +10,7 @@ const ImageGalleries: FC<galleryPros> = () => {
   return (
     <div>
       <div className="text-center mt-10">
-        <p>Team Members</p>
-        <h1 className="text-2xl font-bold">Our Master Chefs</h1>
+        <h1 className="text-2xl font-bold">Filtered Galleries</h1>
       </div>
       <div className="flex flex-wrap gap-4 justify-center my-10">
        
@@ -23,8 +22,7 @@ const ImageGalleries: FC<galleryPros> = () => {
             image={image}
             title={title}
             styles={`w-[220px]  h-[220px] md:h-[300px] md:w-[300px] object-contain rounded-[1px]`}
-            group={""}
-          />
+            group={""} icon={[]}          />
         ))}
       </div>
     </div>

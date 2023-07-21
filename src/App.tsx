@@ -1,11 +1,12 @@
 import { Route, Routes } from "react-router-dom";
 import {
-  AboutPage,
   Career,
   ContactPage,
   Footer,
+  Gallery,
   Header,
   OurCient,
+  OurCompanyPage,
   Service,
 } from "./paths";
 import Home from "./pages/Home";
@@ -23,12 +24,12 @@ function App() {
           element={<Home category={""} description={""} headerPosition={""} />}
         />
         <Route
-          path="/about"
-          element={<AboutPage animationImage={""} backgroundImage={""} />}
+          path="/Our_company"
+          element={<OurCompanyPage animationImage={""} backgroundImage={""} />}
         />
         <Route path="/What_We_Do" element={<Service />} />
         <Route path="/OurClient" element={<OurCient />} />
-        {/* <Route path="/Gallery" element={<Gallery />} /> */}
+        <Route path="/Gallery" element={<Gallery />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/career" element={<Career />} />
       </Routes>
