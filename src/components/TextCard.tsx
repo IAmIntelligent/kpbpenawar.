@@ -1,5 +1,4 @@
 import { GrServices } from "react-icons/gr";
-import { cardTextProps } from "../pages//Home";
 
 interface TextCardProps {
   key:number
@@ -13,7 +12,7 @@ const TextCard: React.FC<TextCardProps> = ({ category, description ,icon}) => {
   return (
     <div>
       {/* card1 */}
-      {icon &&   <GrServices/> || <icon/> }
+      {icon &&   <GrServices/> }
       <div className="card rounded-none w-[300px] bg-[#171d2d]/70 h-[300px] text-primary-content hover:bg-[#fea116]">
 
         <div className="card-body">

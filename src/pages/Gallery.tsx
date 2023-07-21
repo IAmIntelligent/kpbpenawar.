@@ -1,5 +1,5 @@
 import { FC, useState } from "react";
-import { Hero, ImageCard, ImageGalleries } from "../paths";
+import { Hero, ImageCard } from "../paths";
 import { hero_images, filterdGallery } from "../assets/utlity";
 
 interface galleryProps {
@@ -14,7 +14,7 @@ const Gallery: FC<galleryProps> = () => {
 
   // No dublication
   const filterdCalergory = new Set(
-    filterdGallery?.map(({ category }, index) => category)
+    filterdGallery?.map(({ category }) => category)
   );
   const catogories = ["All", ...filterdCalergory];
 
@@ -53,7 +53,7 @@ const [activeCategory,setActiveCategory] = useState("")
         {/*  */}
        
        <div className="flex flex-wrap  justify-center gap-3 transition-transform ease-out duration-300">
-       {filteredItems?.map(({ image }, index) => (
+       {filteredItems?.map(({ image }) => (
           <ImageCard
             fullName={""}
             position={""}

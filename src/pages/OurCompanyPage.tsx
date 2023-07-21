@@ -1,8 +1,6 @@
 import { FC } from "react";
 import { About, Hero, ImageCard, NewsLetter } from "../paths";
 import { directorsGallery, hero_images } from "../assets/utlity";
-import { AiFillInstagram, AiFillTwitterCircle } from "react-icons/ai";
-import { BsFacebook } from "react-icons/bs";
 
 interface aboutProps {
   animationImage: string;

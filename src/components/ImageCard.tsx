@@ -1,10 +1,10 @@
 import { FC } from "react";
 import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
-import { GrServices } from "react-icons/gr";
+// import { GrServices } from "react-icons/gr";
 
-interface Icon {
-  [index: number]: JSX.Element;
-}
+// interface Icon {
+//   [index: number]: JSX.Element;
+// }
 
 export interface ImageCardProps {
   fullName: string;

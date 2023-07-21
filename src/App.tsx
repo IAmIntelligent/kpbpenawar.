@@ -29,7 +29,7 @@ function App() {
         />
         <Route path="/What_We_Do" element={<Service />} />
         <Route path="/OurClient" element={<OurCient />} />
-        <Route path="/Gallery" element={<Gallery />} />
+        <Route path="/Gallery" element={<Gallery category={""} />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/career" element={<Career />} />
       </Routes>
