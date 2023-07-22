@@ -10,7 +10,7 @@ const About = () => {
           <div className="w-full lg:w-[50%] flex flex-wrap gap-4 ">
             <img
               className="w-full md:w-full object-contain"
-              src="/img/About_design.png"
+              src="/img/About_design.jpg"
               alt=""
             />
           </div>
