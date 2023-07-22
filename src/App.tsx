@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import {
   Career,
   ContactPage,
@@ -35,7 +35,10 @@ function App() {
       </Routes>
       <Footer />
 
+<Link to={`https://wa.me/${`+601155066649`}?text=Hi`}>
+
       <BsWhatsapp className="fixed bottom-10 right-10 text-[40px] md:text-[70px] text-green-500" />
+</Link>
     </div>
     //
     // <Home category={""} description={""} headerPosition={""}/>

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="px-5 md:px-20 bg-gray-900 text-white static top-[100px] right-0 left-0 ">
       <div className="container mx-auto px-4 py-8">
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap justify-between">
           <div className="w-full md:w-1/3 lg:w-[180px] mb-4">
             <h1 className="about-cursive text-[#FEA116] text-xl">Our Story</h1>
             <ul className="">
@@ -30,10 +30,10 @@ const Footer = () => {
             <address>
               Unit 6, Level 2 Fastspace Jalan Kampung Lalang, Educity Hub,
               Educity@lskandar 79250 Iskandar Puteri Johor Darul Takzim
-              <a href="#"> +6 011 5506 6649</a>
-              <a href="#"> www.ekr.asia</a> <br />
-              <a href="#">dramir@ekr.asia</a>
-              <a href="#">info@ekr.asia</a>
+              <Link to="tel:+6 011 5506 6649"> +6 011 5506 6649</Link> <br />
+              <Link to="#"> www.ekr.asia</Link> <br />
+              <Link to="#">dramir@ekr.asia</Link>
+              <Link to="#">info@ekr.asia</Link>
             </address>
             <p>info@kpbpenawar.com</p>
           </div>

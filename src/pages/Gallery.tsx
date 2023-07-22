@@ -36,7 +36,7 @@ const [activeCategory,setActiveCategory] = useState("")
         backgroundImage={hero_images?.gallery_hero}
         title={""}
         button={""}
-        height={""}
+        height={"h-[40vh]"}
       />
       <div className="flex gap-3 flex-wrap justify-center mt-3 md:mt-10  p-3 md:py-10 md:px-10 ">
         <p className="flex gap-2 flex-wrap justify-center shadow-md py-3 md:py-5 md:mb-5">

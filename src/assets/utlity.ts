@@ -18,92 +18,58 @@ const headersLinks = [
   { name: "Contact", link: "/contact" },
 ];
 const aboutParagraph = [
-  `We’re the people behind the operations & maintenances,
-  hospitality, food and support services that power your day, make
-  you smile and put a spring in your step. That’s just one of the
-  reason why we’re here for hospitality, catering and business
-  support service provider. KPB PENAWAR SDN BHD is purely 100%
-  malaysian bumiputera company incorporated in 2017. We one of most
-  preferred support services in provide (O&M) Operations and
-  Maintenance services of workers accommodation facilities located
-  Pengerang,Johor,Malaysia. And also surrounding area by Petronas
-  Integrated Complex (PIC), Pengerang Industrial Park (PIP),
-  Pengerang Echo Industrial Park (PEIP). We offer a broad range of
-  services for industrial and commercial establishments as well as
-  workers camp, hostel, residential complexes and individual homes
-  throughout Johor.`,
-  // Add more paragraphs if needed
-  `We take the time to understand each of our client's needs on an
-  individual basis, in order to ensure they receive from us the best
-  possible services for their premises. All projects undertaken by
-  us are handled by experienced, skilled and well-trained staff
-  using the latest equipment and quality materials to ensure that
-  the tasks are completed to the highest standards and on time.`,
-  `Clients in both public and private sectors continue to recognise
-  outsourcing as a route not only to reducing costs but also to
-  accessing expertise. We have enormous experience and our clients
-  know that by working with us they are benefiting from a track
-  record of delivery, trusted relationships and quality service. Put
-  simply, we hit the ground running and make a real difference from
-  day one.`,
-  `Today, clients increasingly want that ‘difference’ to be applied
-  to more and more individual services. Many clients initially
-  appoint us to provide a single service. Then, when we have proved
-  our value, they frequently move towards bundling a number of
-  services together – and there’s a clear trend towards bundled and
-  integrated FM, where we deliver a suite of services, often across
-  multiple sites. We see opportunities for great service and
-  consistent growth in all contracts – whether we are providing one
-  service or several.`,
+  `Embunan Kristal Resources  take pride in providing Operations and Maintenances of Total Integrated Facility Management for Workers Accommodations, Camp Management, Food & Beverage Catering, Housekeeping, Laundry services, Building Maintenances, Water Treatment Plant, Sewerage Treatment Plant, Labors Supply Contract, Transportation and Warehouse in support of the Camp Industry operations is operational and located in the State of Johor and Other places.
+  Mobilization staff will be completed all Safety Inductions, Medicals and Training prior to deployment to any Camp location or locations. Project Management Team consists of highly experienced, well educated and well exposed to working conditions of live projects for both Malaysia as well International Large Size (over than 60,000 man) Remote Camp Locations.
+  Our capacity and skill to support large complex portfolios as well as specialized services for business requiring customized Facilities Management services. We are unique in the way we integrate our services trough state of art technology and form alliance relationships with our customers`
 ];
 
 const serviceTextCard = [
   {
     title: "Operation and Maintenance",
     description:
-      "Our most Experienced and Professional Team will Guide you to make every moment with us joyful and valuable.",
+      "Embunan Kristal Resources were concentrates in tasks to maintain quality of aequipments and Services before any Significiant Issues Arise.",
     icon: GrServices as React.ElementType,
   },
   {
     title: "Labour Management",
     description:
-      "We will support you with our extremely good and valuable services.",
+      "Embunan Kristal Resources will Povide higly Skilled labours with Productivity, Reporting and Planning Capabilities.",
     icon: GrServices,
   },
   {
     title: "Labour Accomadation",
     description:
-      "We are in alert 24/7 to keep you feeling safe and secure with continuous services.",
+      "we at Embunan Kristal Resources, will Provide Neat and Secured Accomodations for Labours with Clean and Required Services.      ",
     icon: GrServices,
   },
   {
     title: "Camp Management",
     description:
-      "We promise a commitment to hospitality that makes guests feel like kings.",
+      "Embunan Kristal Resourcesare Undertaking Camp Management with Proper Guidance and Monitoring of Authorities with Proper Coordination.",
     icon: GrServices,
   },
   {
     title: "Food and Beverage Catering",
     description:
-      "We promise a commitment to hospitality that makes guests feel like kings.",
+      "We are Providing Neat and Clean Food regularly with Ordered Menu. Our highly delicious and Ready to Eat Items were Supplied Punctually.      ",
     icon: GrServices,
   },
   {
     title: "Launtry",
     description:
-      "We promise a commitment to hospitality that makes guests feel like kings.",
+      "Our Services Includes Washing, drying  Processing of Clothes,Sheets, Towels, Uniforms etc with Good Care and Handling.      ",
     icon: GrServices,
   },
   {
     title: "House Keeping",
     description:
-      "We promise a commitment to hospitality that makes guests feel like kings.",
+      "Our House Keeping Professionals will Make your Spaces Clean and Tidy. Includes Disposing of Rubbish, Cleaning Dirty Surfaces, Dusting and Vacumating.      ",
     icon: GrServices,
   },
   {
     title: " Transportation",
     description:
-      "We promise a commitment to hospitality that makes guests feel like kings.",
+      "Embunan Kristal Resources will Provide you Most Cheapest and Safe Travel Resourses for Reaching Your Destinations On Time.",
     icon: GrServices,
   },
 ];

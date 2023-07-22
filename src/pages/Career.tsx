@@ -36,18 +36,25 @@ const Career = () => {
           </button>
         </div>
         <div className="flex flex-col md:flex-row justify-start items-center gap-5 px-3 py-3 md:px-10 md:py-10">
-          <div className="">
+          <div className=" w-full md:w-[50%]">
             {[
-              {
-                title: "Cleaning staff ",
+              
+              {title: " Chicken Poultry Farming",
+                descr: "Projects Head",
                 image:
-                  "https://img.etimg.com/thumb/width-1200,height-900,imgsize-706737,resizemode-75,msid-76771463/jobs/unlock-2-0-demand-for-office-boys-housekeeping-staff-on-the-rise.jpg",
+                  "https://cdn.britannica.com/03/503-050-AEC26FB3/hens-egg-production-White-Leghorn-layer-house.jpg",
               },
-              {
-                title: "Driver",
+              {title: "Cattle Cows & Goat Farming",
+                descr: "Projects Head",
                 image:
-                  "https://images.indianexpress.com/2017/12/party-driver.jpg",
+                  "https://gogetfunding.com/wp-content/uploads/2019/04/6084948/img/ap8-Le-Toan-THmilk-1.jpg",
               },
+              {title: "Agriculture Vegetables & Fruits Farming",
+                descr: "Operations Head",
+                image:
+                  "https://www.agriculture-strategies.eu/wp-content/uploads/2018/10/abundance-agriculture-bananas-264537.jpg",
+              },
+             
             ].map((item,index) => (
               <div key={index} className="flex  items-center gap-5">
                 <img
@@ -59,23 +66,28 @@ const Career = () => {
                   <h3 className="text-[20px] font-bold">{item.title}</h3>
                   <hr />
                   <p className="font-sans italic">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
+                    {item.descr}
                   </p>
                 </div>
               </div>
             ))}
           </div>
-          <div>
+          <div className=" w-full md:w-[50%]">
             {[
-              {
-                title: "House Booking",
+               {title: "Fish Ponds",
+                descr: " Projects Head ",
                 image:
-                  "https://cdn.siasat.com/wp-content/uploads/2020/09/download-3.jpg",
+                  "https://www.agrifarming.in/wp-content/uploads/2015/02/291.jpg",
               },
-              {
-                title: "Cook",
+              {title: "Ice cream Parlour ",
+                descr: "Projects Head",
                 image:
-                  "https://media.npr.org/assets/img/2023/05/05/gettyimages-1359616274_wide-af5b01ff21bd41d7420f1066212bbfa11537cb36-s1100-c50.jpg",
+                  "https://blog.petpooja.com/wp-content/uploads/2022/05/our-ladies.jpg",
+              },
+              {title: "Projects General Workers",
+                descr: " Projects Head",
+                image:
+                  "https://cc.careersportal.ie/images/subsectors/11.jpg",
               },
             ].map((item, index) => {
               return (
@@ -89,7 +101,7 @@ const Career = () => {
                     <h3 className="text-[20px] font-bold">{item.title}</h3>
                     <hr />
                     <p className="font-sans italic">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
+                    {item.descr}.{" "}
                     </p>
                   </div>
                 </div>

@@ -37,7 +37,7 @@ const Hero: FC<HeroPorps> = ({
           )}
           {button && (
             <Link
-              to=""
+              to="/Our_company"
               className="bg-[#FEA116] text-white font-semibold py-2 px-4 rounded-lg inline-block animated slideInLeft"
             >
               Read more

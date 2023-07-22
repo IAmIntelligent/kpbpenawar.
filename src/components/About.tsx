@@ -26,7 +26,7 @@ const About = () => {
               <Scrollbars style={{height:700}} >
                 {aboutParagraph?.map(
                   (p, index) =>
-                    index < aboutParagraph.length - 1 && (
+                    index <= aboutParagraph.length - 1 && (
                       <p key={index} className="text-gray-600 leading-[40px] ">
                         {p}
                       </p>

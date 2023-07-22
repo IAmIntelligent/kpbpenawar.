@@ -1,5 +1,6 @@
 import { FC } from "react";
 import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
+import { Link } from "react-router-dom";
 // import { GrServices } from "react-icons/gr";
 
 // interface Icon {
@@ -47,9 +48,15 @@ const ImageCard: FC<ImageCardProps> = ({
             {/* {icon && <p className="flex gap-3"><{icon}/></p> } */}
             {icon.length > 0 && (
               <p className="flex gap-3">
-                <BsInstagram />
-                <BsTwitter />
-                <BsFacebook />
+                <Link to="">
+                  <BsInstagram />
+                </Link>
+                <Link to="">
+                  <BsTwitter />
+                </Link>
+                <Link to="">
+                  <BsFacebook />
+                </Link>
               </p>
             )}
           </div>
