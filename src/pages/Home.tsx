@@ -38,7 +38,7 @@ const Home: React.FC<cardTextProps> = () => {
                     image={director.image}
                     styles={"w-[320px] h-[320px] md:h-[340px] md:w-[340px] object-cover rounded-full  transition-all delay-150 duration-300  group-hover:scale-125"}
                     group={"group px-2"}
-                    title={""} icon={director.icon} />
+                    title={""} icon={director.icon} download = {true}/>
                 </div>
               </div>
             );

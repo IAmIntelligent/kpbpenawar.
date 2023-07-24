@@ -15,8 +15,7 @@ const OurClient = () => {
             position={""}
             image={image}
             title={title}
-            styles=" object-fill h-[300px] w-[300px] object-cover" group={"px-4"} icon={[]} 
-          />
+            styles=" object-fill h-[300px] w-[300px] object-cover" group={"px-4 w-full lg:w-[450px] shadow-3xl"} icon={[]} download={false}          />
         ))}
       </div>
     </div>

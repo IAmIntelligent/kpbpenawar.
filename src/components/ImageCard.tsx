@@ -1,5 +1,6 @@
 import { FC } from "react";
 import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
+import { GrDownload } from "react-icons/gr";
 import { Link } from "react-router-dom";
 // import { GrServices } from "react-icons/gr";
 
@@ -15,6 +16,7 @@ export interface ImageCardProps {
   title: string;
   group: string;
   icon: string[];
+  download: boolean;
 }
 
 const ImageCard: FC<ImageCardProps> = ({
@@ -25,6 +27,7 @@ const ImageCard: FC<ImageCardProps> = ({
   title,
   group,
   icon,
+  download,
 }) => {
   console.log(icon);
   return (
@@ -45,7 +48,7 @@ const ImageCard: FC<ImageCardProps> = ({
             {title && <p> {title}</p>}
             {fullName && <h2 className="card-title  ">{fullName}</h2>}
             <h4>{position}</h4>
-            {/* {icon && <p className="flex gap-3"><{icon}/></p> } */}
+
             {icon.length > 0 && (
               <p className="flex gap-3">
                 <Link to="">
@@ -58,6 +61,10 @@ const ImageCard: FC<ImageCardProps> = ({
                   <BsFacebook />
                 </Link>
               </p>
+            )}
+
+            {download && (
+                <GrDownload className="  lg:text-2xl cursor-pointer  shadow-2xl" />
             )}
           </div>
         )}

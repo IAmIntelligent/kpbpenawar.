@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { About, Hero, ImageCard, NewsLetter } from "../paths";
+import { About, Hero, ImageCard } from "../paths";
 import { directorsGallery, hero_images } from "../assets/utlity";
 
 interface aboutProps {
@@ -63,7 +63,6 @@ const OurCompanyPage: FC<aboutProps> = () => (
       </div>
     </div>
 
-    <NewsLetter email={""} />
   </div>
 );
 

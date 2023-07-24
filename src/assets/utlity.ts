@@ -18,9 +18,13 @@ const headersLinks = [
   { name: "Contact", link: "/contact" },
 ];
 const aboutParagraph = [
-  `Embunan Kristal Resources  take pride in providing Operations and Maintenances of Total Integrated Facility Management for Workers Accommodations, Camp Management, Food & Beverage Catering, Housekeeping, Laundry services, Building Maintenances, Water Treatment Plant, Sewerage Treatment Plant, Labors Supply Contract, Transportation and Warehouse in support of the Camp Industry operations is operational and located in the State of Johor and Other places.
-  Mobilization staff will be completed all Safety Inductions, Medicals and Training prior to deployment to any Camp location or locations. Project Management Team consists of highly experienced, well educated and well exposed to working conditions of live projects for both Malaysia as well International Large Size (over than 60,000 man) Remote Camp Locations.
-  Our capacity and skill to support large complex portfolios as well as specialized services for business requiring customized Facilities Management services. We are unique in the way we integrate our services trough state of art technology and form alliance relationships with our customers`
+  `Embunan Kristal Resources also diversify to agriculture vegetables & fruits farming,  chicken poultry farming, cattle cow & goat farming,  fish ponds farming and ice cream parlour and technology IT products services and value added services.`,
+
+  ` Labour Contract Supplier Service
+  
+  EKR services is one of the leading names in the industry known for offering exceptional quality Labour contract services at an affordable rate. We are having one of the highly experienced team of labours. Our team is capable and well-trained to offer this service within promised frame of time. Our supplied labour are well known for their services.`,
+
+  `Our team is formed of highly trained labor that all are having unique ability physically & mentally. Our labors are good decision maker, and very sincere towards the service their offer to the clients. We provide all type of labour work in our labour contract services.`,
 ];
 
 const serviceTextCard = [
@@ -397,36 +401,36 @@ const services = [
   },
 ];
 
-import jointV1 from "/img/joint-venture/embunan8.jpg";
-import jointV2 from "/img/joint-venture/koperasi4.jpg";
-import jointV3 from "/img/joint-venture/mv-electric2.jpg";
-import jointV4 from "/img/joint-venture/nsk-transp.jpg";
-import jointV5 from "/img/joint-venture/sajian6.jpg";
-import jointV6 from "/img/joint-venture/strength1.jpg";
+import client1 from "/img/ourClients/embunan8.jpg";
+import client2 from "/img/ourClients/koperasi4.jpg";
+import client3 from "/img/ourClients/mv-electric2.jpg";
+import client4 from "/img/ourClients/nsk-transp.jpg";
+import client5 from "/img/ourClients/sajian6.jpg";
+import client6 from "/img/ourClients/strength1.jpg";
 
 const jointVentures = [
   {
-    image: jointV1,
+    image: client1,
     title: "KOPERASI PEMBANGUNAN BANDAR PENAWAR KOTA TINGGI BERHAD",
   },
   {
-    image: jointV2,
+    image: client2,
     title: "STRENGTH FORCE SECURITY & SERVICES SDN BHD",
   },
   {
-    image: jointV3,
+    image: client3,
     title: "SAJIAN AMBANG SDN BHD",
   },
   {
-    image: jointV4,
+    image: client4,
     title: "EMBUNAN KRISTAL RESOURCES",
   },
   {
-    image: jointV5,
+    image: client5,
     title: "NSK TRANSPORTATION SDN BHD",
   },
   {
-    image: jointV6,
+    image: client6,
     title: "MV ELECTRICAL SERVICES ENTERPRISE",
   },
 ];
