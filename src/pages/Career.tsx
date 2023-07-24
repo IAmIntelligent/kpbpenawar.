@@ -84,7 +84,7 @@ const Career = () => {
                 image:
                   "https://blog.petpooja.com/wp-content/uploads/2022/05/our-ladies.jpg",
               },
-              {title: "Projects General Workers",
+              {title: " General Workers",
                 descr: " Projects Head",
                 image:
                   "https://cc.careersportal.ie/images/subsectors/11.jpg",
