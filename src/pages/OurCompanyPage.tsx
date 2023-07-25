@@ -49,13 +49,10 @@ const OurCompanyPage: FC<aboutProps> = () => (
                     fullName={"DR MOHAMMAD AMIR SHAN"}
                     position={"CEO"}
                     image={image}
-                    styles={
-                      "w-[320px] h-[320px] md:h-[380px] md:w-[380px] object-cover rounded-full  transition-all delay-150 duration-300  group-hover:scale-125"
-                    }
+                    styles={"w-[320px] h-[320px] md:h-[380px] md:w-[380px] object-cover rounded-full  transition-all delay-150 duration-300  group-hover:scale-125"}
                     group={"group"}
                     title={""}
-                    icon={icon}
-                  />
+                    icon={icon} download={false}                  />
                 </div>
               </div>
             )

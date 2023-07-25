@@ -55,16 +55,13 @@ const [activeCategory,setActiveCategory] = useState("")
        <div className="flex flex-wrap  justify-center gap-3 transition-transform ease-out duration-300">
        {filteredItems?.map(({ image }) => (
           <ImageCard
-            fullName={""}
-            position={""}
-            image={image}
-            group={"transition-transform transform hover:scale-95 hover:z-10 rouded-none"}
-            styles={
-              "w-[200px] h-[200px] md:w-[300px] md:h-[300px] object-cover rounded-md transition-opacity duration-300 hover:opacity-80"
-            }
-            title={""}
-            icon={[]}
-          />
+           fullName={""}
+           position={""}
+           image={image}
+           group={"transition-transform transform hover:scale-95 hover:z-10 rouded-none"}
+           styles={"w-[200px] h-[200px] md:w-[300px] md:h-[300px] object-cover rounded-md transition-opacity duration-300 hover:opacity-80"}
+           title={""}
+           icon={[]} download={false}          />
         ))}
        </div>
       </div>
