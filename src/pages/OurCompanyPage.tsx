@@ -18,7 +18,9 @@ const OurCompanyPage: FC<aboutProps> = () => (
     />
     <About />
     <div className="text-center my-3">
-      <button className="btn btn-outline btn-warning">Download Company Profile</button>
+      <button className="btn btn-outline btn-warning">
+      <a  href="./company_profile.pdf" download={''}>
+        Download Company Profile </a></button>
     </div>
     {/* <ImageGalleries fullName={""} position={""} image={""} /> */}
     <div className="container py-10 px-10 shadow-xl border m-auto text-center">
