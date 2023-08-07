@@ -5,8 +5,8 @@ import {
   Footer,
   Gallery,
   Header,
-  OurCient,
   OurCompanyPage,
+  OurPartner,
   Service,
 } from "./paths";
 import Home from "./pages/Home";
@@ -24,21 +24,20 @@ function App() {
           element={<Home category={""} description={""} headerPosition={""} />}
         />
         <Route
-          path="/Our_company"
+          path="/our_company"
           element={<OurCompanyPage animationImage={""} backgroundImage={""} />}
         />
-        <Route path="/What_We_Do" element={<Service />} />
-        <Route path="/OurClient" element={<OurCient />} />
-        <Route path="/Gallery" element={<Gallery category={""} />} />
+        <Route path="/what_we_do" element={<Service />} />
+        <Route path="/ourpartner" element={<OurPartner />} />
+        <Route path="/gallery" element={<Gallery category={""} />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/career" element={<Career />} />
       </Routes>
       <Footer />
 
-<Link to={`https://wa.me/${`+601155066649`}?text=Hi`}>
-
-      <BsWhatsapp className="fixed bottom-10 right-10 text-[40px] md:text-[70px] text-green-500" />
-</Link>
+      <Link to={`https://wa.me/${`+601155066649`}?text=Hi`}>
+        <BsWhatsapp className="fixed bottom-10 right-10 text-[40px] md:text-[70px] text-green-500" />
+      </Link>
     </div>
     //
     // <Home category={""} description={""} headerPosition={""}/>

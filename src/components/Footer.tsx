@@ -15,7 +15,7 @@ const Footer = () => {
                     to={link.link}
                     aria-readonly
                     className={`
-                    
+
                      `}
                     aria-current="page"
                   >
@@ -33,27 +33,45 @@ const Footer = () => {
               <Link to="tel:+6 011 5506 6649"> +6 011 5506 6649</Link> <br />
               <Link to="#"> www.ekr.asia</Link> <br />
               <Link to="#">dramir@ekr.asia</Link>
+              <br />
               <Link to="#">info@ekr.asia</Link>
+              <br />
             </address>
-            <p>info@kpbpenawar.com</p>
           </div>
           <div className="w-full md:w-1/3 lg:w-1/4 mb-4">
             <h1 className="about-cursive text-[#FEA116] text-xl">Services</h1>
             <ul className="list-none">
-              <li>Operation and Maintenance</li>
-              <li>Labour Management</li>
-              <li>Labour Accomadation</li>
-              <li>Camp Management
-</li>
+              <Link to={"/What_We_Do"}>
+                <li>Operation and Maintenance</li>
+              </Link>
+              <Link to={"/What_We_Do"}>
+                {" "}
+                <li>Labour Management</li>
+              </Link>
+              <Link to={"/What_We_Do"}>
+                <li>Labour Accommodation</li>
+              </Link>
+              <Link to={"/What_We_Do"}>
+                {" "}
+                <li>Camp Management</li>
+              </Link>
             </ul>
           </div>
           <div className="w-full md:w-1/3 lg:w-1/4 mb-4">
             <h1 className="about-cursive text-[#FEA116] text-xl">Services</h1>
             <ul className="list-none">
-              <li>Food and Beverage Catering</li>
-              <li>Laundry Service</li>
-              <li>House Keeping</li>
-              <li>Transportation</li>
+              <Link to={"/What_We_Do"}>
+                <li>Food and Beverages Catering</li>
+              </Link>
+              <Link to={"/What_We_Do"}>
+                <li>Laundry Services</li>
+              </Link>
+              <Link to={"/What_We_Do"}>
+                <li>House Keeping</li>
+              </Link>
+              <Link to={"/What_We_Do"}>
+                <li>Transportation</li>
+              </Link>
             </ul>
           </div>
         </div>
@@ -62,7 +80,7 @@ const Footer = () => {
           <a className="border-b" href="#">
             Ekr.asia
           </a>
-          , All Right Reserved. Designed By{" "}
+          , All Rights Reserved. Designed By{" "}
           <a className="border-b" href="https://htmlcodex.com">
             Empire tech
           </a>

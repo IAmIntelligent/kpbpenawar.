@@ -17,20 +17,26 @@ const OurCompanyPage: FC<aboutProps> = () => (
       button={""}
     />
     <About />
+    <div className="text-center my-3">
+      <button className="btn btn-outline btn-warning">Download Company Profile</button>
+    </div>
     {/* <ImageGalleries fullName={""} position={""} image={""} /> */}
-    <div className="container py-10 px-10 shadow-xl border m-auto ">
+    <div className="container py-10 px-10 shadow-xl border m-auto text-center">
       <h2 className="text-2xl font-bold mb-4">Vision and Mission</h2>
-      <p className="mb-6">
+      <p className="mb-6 ">
         Our goal is to reduce the potential for civil unrest & anti-social
         behavior by camp residents as Sports, Welfare & Recreation activities
         allow people to channel any feelings of built-up frustration or
-        aggression through healthy, constructive & rewarding activities. We aim
-        to make each Clients resident’s employment duration an unforgettable
-        life experience, where they have the opportunity to sample a
-        once-in-a-lifetime experience of diverse cultural exposure to other
-        nationalities and the customs, traditions and events they celebrate. We
-        also aim to have every resident return to their countries a more
-        educated and enlightened individual.
+        aggression through healthy, constructive & rewarding activities.
+        <p>
+          {" "}
+          We aim to make each Clients resident’s employment duration an
+          unforgettable life experience, where they have the opportunity to
+          sample a once-in-a-lifetime experience of diverse cultural exposure to
+          other nationalities and the customs, traditions and events they
+          celebrate. We also aim to have every resident return to their
+          countries a more educated and enlightened individual.
+        </p>
       </p>
     </div>
 
@@ -49,17 +55,20 @@ const OurCompanyPage: FC<aboutProps> = () => (
                     fullName={"DR MOHAMMAD AMIR SHAN"}
                     position={"CEO"}
                     image={image}
-                    styles={"w-[320px] h-[320px] md:h-[380px] md:w-[380px] object-cover rounded-full  transition-all delay-150 duration-300  group-hover:scale-125"}
+                    styles={
+                      "w-[320px] h-[320px] md:h-[380px] md:w-[380px] object-cover rounded-full  transition-all delay-150 duration-300  group-hover:scale-125"
+                    }
                     group={"group"}
                     title={""}
-                    icon={icon} download={false}                  />
+                    icon={icon}
+                    download={false}
+                  />
                 </div>
               </div>
             )
         )}
       </div>
     </div>
-
   </div>
 );
 

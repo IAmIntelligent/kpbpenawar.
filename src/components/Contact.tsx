@@ -30,7 +30,7 @@ const Contact: React.FC = () => {
             
             <div>
               <label className="block mb-2 font-semibold text-white" htmlFor="subject">
-                Suject
+                Subject
               </label>
               <input
                 type="text"

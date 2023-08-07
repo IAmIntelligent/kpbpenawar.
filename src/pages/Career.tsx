@@ -9,7 +9,13 @@ const Career = () => {
   const btnText = "text-[15px] md:text-[20px] hover:text-white font-semibold";
   return (
     <div>
-      <Hero animationImage={"none"} backgroundImage={""} title={""} button={""} height="h-[40vh]" />
+      <Hero
+        animationImage={"none"}
+        backgroundImage={""}
+        title={""}
+        button={""}
+        height="h-[40vh]"
+      />
 
       <div className="overflow-x-auto  font-mono py-10 ">
         <h4 className="text-[#FEA116] text-[25px] md:text-4xl font-bold text-center py-3">
@@ -38,24 +44,25 @@ const Career = () => {
         <div className="flex flex-col md:flex-row justify-start items-center gap-5 px-3 py-3 md:px-10 md:py-10">
           <div className=" w-full md:w-[50%]">
             {[
-              
-              {title: " Chicken Poultry Farming",
-                descr: "Projects Head",
+              {
+                title: " Chicken Poultry Farming",
+                descr: "Project Head",
                 image:
                   "https://cdn.britannica.com/03/503-050-AEC26FB3/hens-egg-production-White-Leghorn-layer-house.jpg",
               },
-              {title: "Cattle Cows & Goat Farming",
-                descr: "Projects Head",
+              {
+                title: "Cattle Cows & Goat Farming",
+                descr: "Project Head",
                 image:
                   "https://gogetfunding.com/wp-content/uploads/2019/04/6084948/img/ap8-Le-Toan-THmilk-1.jpg",
               },
-              {title: "Agriculture Vegetables & Fruits Farming",
+              {
+                title: "Agriculture Vegetables & Fruits Farming",
                 descr: "Operations Head",
                 image:
                   "https://www.agriculture-strategies.eu/wp-content/uploads/2018/10/abundance-agriculture-bananas-264537.jpg",
               },
-             
-            ].map((item,index) => (
+            ].map((item, index) => (
               <div key={index} className="flex  items-center gap-5">
                 <img
                   src={item.image}
@@ -65,29 +72,29 @@ const Career = () => {
                 <div>
                   <h3 className="text-[20px] font-bold">{item.title}</h3>
                   <hr />
-                  <p className="font-sans italic">
-                    {item.descr}
-                  </p>
+                  <p className="font-sans italic">{item.descr}</p>
                 </div>
               </div>
             ))}
           </div>
           <div className=" w-full md:w-[50%]">
             {[
-               {title: "Fish Ponds",
-                descr: " Projects Head ",
+              {
+                title: "Fish Ponds",
+                descr: " Project Head ",
                 image:
                   "https://www.agrifarming.in/wp-content/uploads/2015/02/291.jpg",
               },
-              {title: "Ice cream Parlour ",
-                descr: "Projects Head",
+              {
+                title: "Ice cream Parlour ",
+                descr: "Project Head",
                 image:
                   "https://blog.petpooja.com/wp-content/uploads/2022/05/our-ladies.jpg",
               },
-              {title: " General Workers",
-                descr: " Projects Head",
-                image:
-                  "https://cc.careersportal.ie/images/subsectors/11.jpg",
+              {
+                title: " General Workers",
+                descr: " Project Head",
+                image: "https://cc.careersportal.ie/images/subsectors/11.jpg",
               },
             ].map((item, index) => {
               return (
@@ -100,9 +107,7 @@ const Career = () => {
                   <div>
                     <h3 className="text-[20px] font-bold">{item.title}</h3>
                     <hr />
-                    <p className="font-sans italic">
-                    {item.descr}.{" "}
-                    </p>
+                    <p className="font-sans italic">{item.descr}. </p>
                   </div>
                 </div>
               );
@@ -111,8 +116,7 @@ const Career = () => {
         </div>
 
         {/* testiminals */}
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-3 px-10 py-10">
-          {/* Testimonial Card 1 */}
+        {/* <div className="grid grid-cols-1 gap-8 md:grid-cols-3 px-10 py-10">
           {[1, 2, 3].map((item) => (
             <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
               <div className="text-white mb-4">
@@ -126,7 +130,7 @@ const Career = () => {
               </p>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );

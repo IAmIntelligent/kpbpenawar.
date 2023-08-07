@@ -64,7 +64,7 @@ const ImageCard: FC<ImageCardProps> = ({
             )}
 
             {download && (
-                <GrDownload className="  lg:text-2xl cursor-pointer  shadow-2xl" />
+               <a  href="./Amir_CV.pdf" download={''}> <GrDownload className="  lg:text-2xl cursor-pointer  shadow-2xl" /></a>
             )}
           </div>
         )}

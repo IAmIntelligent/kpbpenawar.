@@ -20,7 +20,7 @@ const About = () => {
               About
             </h1>
             <h4 className="text-[#FEA116] text-3xl font-bold my-5 md:mb-10">
-              Welcome to Embunan kristal Resources.
+              Welcome to Embunan Kristal Resources.
             </h4>
             <div className="h-[50vh] overflow-y-scroll scroll-bar text-start">
               <Scrollbars style={{height:700}} >

@@ -53,7 +53,7 @@ const Service = () => {
                 trained labor that all are having unique ability physically &
                 mentally. Our labors are good decision maker, and very sincere
                 towards the service their offer to the clients. We provide all
-                type of labour work in our labour contract services. ekr.asia
+                type of labour work in our labour contract services.
               </p>
             {/* </Scrollbars> */}
           </div>

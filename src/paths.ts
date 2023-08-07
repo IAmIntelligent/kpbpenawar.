@@ -10,7 +10,7 @@ export { default as Contact } from "./components/Contact";
 export { default as OurCompanyPage } from "./pages/OurCompanyPage";
 export { default as Service } from "./pages/Service";
 export { default as Gallery } from "./pages/Gallery";
-export { default as OurCient } from "./pages/OurCient";
+export { default as OurPartner } from "./pages/OurPartner";
 export { default as Testimonials } from "./components/Testimonials";
 export { default as ContactPage } from "./pages/ContactPage";
 export {default as NewsLetter} from './components/NewsLetter'

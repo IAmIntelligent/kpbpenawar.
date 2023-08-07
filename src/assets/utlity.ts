@@ -10,64 +10,68 @@ import { GrServices } from "react-icons/gr";
 
 const headersLinks = [
   { name: "Home", link: "/" },
-  { name: "Our Company", link: "/Our_company" },
-  { name: "What We Do", link: "/What_We_Do" },
-  { name: "Our client", link: "/OurClient" },
+  { name: "Our Company", link: "/our_company" },
+  { name: "What We Do", link: "/what_we_do" },
+  { name: "Our Partners", link: "/ourpartner" },
   { name: "Career", link: "/career" },
-  { name: "Gallery", link: "/Gallery" },
+  { name: "Gallery", link: "/gallery" },
   { name: "Contact", link: "/contact" },
 ];
 const aboutParagraph = [
+  `Embunan Kristal Resources  take pride in providing Operations and Maintenances of Total Integrated Facility Management for Workers Accommodations, Camp Management, Food & Beverage Catering, Housekeeping, Laundry services, Building Maintenances, Water Treatment Plant, Sewerage Treatment Plant, Labors Supply Contract, Transportation and Warehouse in support of the Camp Industry operations is operational and located in the State of Johor and Other places.`,
+  ` Mobilization staff will be completed all Safety Inductions, Medicals and Training prior to deployment to any Camp location or locations. Project Management Team consists of highly experienced, well educated and well exposed to working conditions of live projects for both Malaysia as well International Large volume manpower with locals and foreigners in Remote Camp Locations.`,
+
+  ` Our capacity and skill to support large complex portfolios as well as specialized services for business requiring customized Facilities Management services. We are unique in the way we integrate our services trough state of art technology and form alliance relationships with our customers`,
   `Embunan Kristal Resources also diversify to agriculture vegetables & fruits farming,  chicken poultry farming, cattle cow & goat farming,  fish ponds farming and ice cream parlour and technology IT products services and value added services.`,
 
-  ` Labour Contract Supplier Service
-  
-  EKR services is one of the leading names in the industry known for offering exceptional quality Labour contract services at an affordable rate. We are having one of the highly experienced team of labours. Our team is capable and well-trained to offer this service within promised frame of time. Our supplied labour are well known for their services.`,
+  `LABOUR CONTRACT SUPPLIER SERVICE `,
 
-  `Our team is formed of highly trained labor that all are having unique ability physically & mentally. Our labors are good decision maker, and very sincere towards the service their offer to the clients. We provide all type of labour work in our labour contract services.`,
+  `EKR services is one of the leading names in the industry known for offering exceptional quality Labour contract services at an affordable rate. We are having one of the highly experienced team of labours. Our team is capable and well-trained to offer this service within promised frame of time. Our supplied labour are well known for their services.`,
+
+  `Our team is formed of highly trained labour that all are having unique ability physically & mentally. Our labours are good decision maker, and very sincere towards the service their offer to the clients. We provide all type of labour work in our labour contract services.`,
 ];
 
 const serviceTextCard = [
   {
     title: "Operation and Maintenance",
     description:
-      "Embunan Kristal Resources were concentrates in tasks to maintain quality of aequipments and Services before any Significiant Issues Arise.",
+      "Embunan Kristal Resources were concentrates in tasks to maintain quality of equipments and Services before any Significiant Issues Arise.",
     icon: GrServices as React.ElementType,
   },
   {
     title: "Labour Management",
     description:
-      "Embunan Kristal Resources will Povide higly Skilled labours with Productivity, Reporting and Planning Capabilities.",
+      "Embunan Kristal Resources will Provide highly Skilled labours with Productivity, Reporting and Planning Capabilities.",
     icon: GrServices,
   },
   {
-    title: "Labour Accomadation",
+    title: "Labour Accommodation",
     description:
-      "we at Embunan Kristal Resources, will Provide Neat and Secured Accomodations for Labours with Clean and Required Services.      ",
+      "We at Embunan Kristal Resources, will Provide Neat and Secured accommodations for Labours with Clean and Required Services.",
     icon: GrServices,
   },
   {
     title: "Camp Management",
     description:
-      "Embunan Kristal Resourcesare Undertaking Camp Management with Proper Guidance and Monitoring of Authorities with Proper Coordination.",
+      "Embunan Kristal Resources are Undertaking Camp Management with Proper Guidance and Monitoring of Authorities with Proper Coordination.",
     icon: GrServices,
   },
   {
     title: "Food and Beverage Catering",
     description:
-      "We are Providing Neat and Clean Food regularly with Ordered Menu. Our highly delicious and Ready to Eat Items were Supplied Punctually.      ",
+      "We are Providing Neat and Clean Food regularly with Ordered Menu. Our highly delicious and Ready to Eat Items were Supplied Punctually.",
     icon: GrServices,
-  },
+  }, 
   {
-    title: "Launtry",
+    title: "Laundry",
     description:
-      "Our Services Includes Washing, drying  Processing of Clothes,Sheets, Towels, Uniforms etc with Good Care and Handling.      ",
+      "Our Services Includes Washing, Drying  Processing of Clothes,Sheets, Towels, Uniforms etc with Good Care and Handling.",
     icon: GrServices,
   },
   {
     title: "House Keeping",
     description:
-      "Our House Keeping Professionals will Make your Spaces Clean and Tidy. Includes Disposing of Rubbish, Cleaning Dirty Surfaces, Dusting and Vacumating.      ",
+      "Our House Keeping Professionals will Make your Spaces Clean and Tidy. Includes Disposing of Rubbish, Cleaning Dirty Surfaces, Dusting and Vacumating.",
     icon: GrServices,
   },
   {
@@ -477,16 +481,15 @@ const filterdGallery = [
   { image: hen4, category: "Poultry Farming Chickens" },
   { image: goat1, category: "Cattles Farming Goat" },
   { image: goat2, category: "Cattles Farming Goat" },
-  { image: goat3, category: "Cattles Farming Cows" },
+  { image: goat3, category: "Cattles Farming Goat" },
   { image: cow1, category: "Cattles Farming Cows" },
-  { image: cow2, category: "Fish Farming Ponds" },
+  { image: cow2, category: "Cattles Farming Cows" },
   { image: fish1, category: "Fish Farming Ponds" },
   { image: fish3, category: "Fish Farming Ponds" },
   { image: fish4, category: "Fish Farming Ponds" },
   { image: fish2, category: "Fish Farming Ponds" },
   { image: fruit1, category: "Fruits farming" },
   { image: fruit2, category: "Fruits farming" },
-  { image: icecream1, category: "Fruits farming" },
   { image: veg1, category: "Vegetables Farming" },
   { image: veg2, category: "Vegetables Farming" },
   { image: veg3, category: "Vegetables Farming" },
