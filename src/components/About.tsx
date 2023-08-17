@@ -22,7 +22,7 @@ const About = () => {
             <h4 className="text-[#FEA116] text-3xl font-bold my-5 md:mb-10">
               Welcome to Embunan Kristal Resources.
             </h4>
-            <div className="h-[50vh] overflow-y-scroll scroll-bar text-start">
+            <div className="h-[50vh] overflow-y-scroll scroll-bar text-start md:p-2">
               <Scrollbars style={{height:700}} >
                 {aboutParagraph?.map(
                   (p, index) =>

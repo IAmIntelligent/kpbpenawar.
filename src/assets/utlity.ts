@@ -18,18 +18,20 @@ const headersLinks = [
   { name: "Contact", link: "/contact" },
 ];
 const aboutParagraph = [
-  `Embunan Kristal Resources  take pride in providing Operations and Maintenances of Total Integrated Facility Management for Workers Accommodations, Camp Management, Food & Beverage Catering, Housekeeping, Laundry services, Building Maintenances, Water Treatment Plant, Sewerage Treatment Plant, Labors Supply Contract, Transportation and Warehouse in support of the Camp Industry operations is operational and located in the State of Johor and Other places.`,
-  ` Mobilization staff will be completed all Safety Inductions, Medicals and Training prior to deployment to any Camp location or locations. Project Management Team consists of highly experienced, well educated and well exposed to working conditions of live projects for both Malaysia as well International Large volume manpower with locals and foreigners in Remote Camp Locations.`,
+  `Embunan Kristal Resources take pride in providing Operations and Maintenances of Total Integrated Facility Management for Workers Accommodations, Camp Management, Food & Beverage Catering, Housekeeping, Laundry services, Building Maintenances, Water Treatment Plant, Sewerage Treatment Plant, Labours Supply Contract, Transportation and Warehouse in support of the Camp Industry operations is operational and located in the State of Johor and Other places.`,
+  `Mobilization staff will complete all Safety Inductions, medicals, and Training prior to deployment to any Camp location or locations. The project management team consists of highly experienced, well educated, and well exposed individuals to the working conditions of live projects for both Malaysia and international large-volume manpower with locals and foreigners in Remote Camp Locations.`,
 
-  ` Our capacity and skill to support large complex portfolios as well as specialized services for business requiring customized Facilities Management services. We are unique in the way we integrate our services trough state of art technology and form alliance relationships with our customers`,
-  `Embunan Kristal Resources also diversify to agriculture vegetables & fruits farming,  chicken poultry farming, cattle cow & goat farming,  fish ponds farming and ice cream parlour and technology IT products services and value added services.`,
+  `Our capacity and skill to support large, complex portfolios as well as specialized services for businesses requiring customized Facilities Management services We are unique in the way we integrate our services through state-of-the-art technology and form alliance relationships with our customers.
+  Embunan Kristal Resources also diversifies into agriculture, including vegetable and fruit farming, chicken and poultry farming, cattle, cows, and goat farming, fish pond farming, ice cream parlors, and technology, including IT products, services, and value-added services.`,
 
-  `LABOUR CONTRACT SUPPLIER SERVICE `,
+  ` LABOUR CONTRACT SUPPLIER SERVICE`,
 
-  `EKR services is one of the leading names in the industry known for offering exceptional quality Labour contract services at an affordable rate. We are having one of the highly experienced team of labours. Our team is capable and well-trained to offer this service within promised frame of time. Our supplied labour are well known for their services.`,
+  `EKR Services is one of the leading names in the industry known for offering exceptional-quality labour contract services at an affordable rate. We have one of the most highly experienced teams of labourers. Our team is capable and well-trained to offer this service within the promised frame of time. Our supplied labourers are well known for their services.`,
 
-  `Our team is formed of highly trained labour that all are having unique ability physically & mentally. Our labours are good decision maker, and very sincere towards the service their offer to the clients. We provide all type of labour work in our labour contract services.`,
+  `Our team is formed of highly trained labourers who all have unique abilities, both physically and mentally. Our labourers are good decision-makers and very sincere towards the service they offer to the clients. We provide all types of labour work in our labour contract services.`,
 ];
+
+
 
 const serviceTextCard = [
   {

@@ -19,25 +19,26 @@ const OurCompanyPage: FC<aboutProps> = () => (
     <About />
     <div className="text-center my-3">
       <button className="btn btn-outline btn-warning">
-      <a  href="./company_profile.pdf" download={''}>
-        Download Company Profile </a></button>
+        <a href="./company_profile.pdf" download={""}>
+          Download Company Profile{" "}
+        </a>
+      </button>
     </div>
     {/* <ImageGalleries fullName={""} position={""} image={""} /> */}
     <div className="container py-10 px-10 shadow-xl border m-auto text-center">
       <h2 className="text-2xl font-bold mb-4">Vision and Mission</h2>
-      <p className="mb-6 ">
-        Our goal is to reduce the potential for civil unrest & anti-social
-        behavior by camp residents as Sports, Welfare & Recreation activities
-        allow people to channel any feelings of built-up frustration or
-        aggression through healthy, constructive & rewarding activities.
+      <p className="mb-6">
+        Our goal is to reduce the potential for civil unrest and anti-social
+        behaviour by camp residents, as Sports, welfare, and Recreation
+        activities allow people to channel any feelings of built-up frustration
+        or aggression through healthy, constructive, and rewarding activities.
         <p>
-          {" "}
-          We aim to make each Clients resident’s employment duration an
+          We aim to make each client resident's employment duration an
           unforgettable life experience, where they have the opportunity to
           sample a once-in-a-lifetime experience of diverse cultural exposure to
-          other nationalities and the customs, traditions and events they
+          other nationalities and the customs, traditions, and events they
           celebrate. We also aim to have every resident return to their
-          countries a more educated and enlightened individual.
+          countries as a more educated and enlightened individual.
         </p>
       </p>
     </div>
