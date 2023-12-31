@@ -20,7 +20,7 @@ const Header: FC<headerProps> = ({ headerPosition }) => {
     setActiveIndex(0);
     setToggleMenu(!toggleMenu);
   };
-console.log(window.pageXOffset)
+  console.log(window.pageXOffset)
   // screen not display same position but  top of the page after clicked any links in header
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -56,23 +56,21 @@ console.log(window.pageXOffset)
             </button>
           </div>
           <div
-            className={`${
-              toggleMenu && "hidden"
-            } justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
+            className={`justify-between h-0 lg:h-auto items-center w-full lg:flex lg:w-auto lg:order-1"
             id="mobile-menu-2`}
           >
-            <ul className="flex flex-col mt-4 bg-gray-700/80 lg:bg-transparent font-medium lg:flex-row lg:space-x-8 lg:mt-0 rounded-md ">
+            <ul className={` ${toggleMenu ? "scale-y-0 " : "absolute scale-y-100 "
+              } lg:scale-y-100  w-full transition-transform transform origin-top lg:w-auto lg:flex flex-col mt-4 bg-gray-700 lg:bg-transparent font-medium lg:flex-row lg:space-x-8 lg:mt-0 rounded-md `}>
               {headersLinks?.map((link, index) => (
                 <li key={index}>
                   <NavLink
                     to={link.link}
                     aria-readonly
                     className={`block py-2 pr-4 pl-3  border-b border-gray-100  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-[#fea116] lg:dark:hover:bg-transparent dark:border-gray-700   rounded-md 
-                    ${
-                      activeIndex === index
+                    ${activeIndex === index
                         ? "dark:text-[#fea116] focus:dark:text-[#fea116]"
                         : ""
-                    }
+                      }
                      `}
                     aria-current="page"
                   >
@@ -82,7 +80,7 @@ console.log(window.pageXOffset)
               ))}
             </ul>
 
-           <Link to={`/What_We_Do`}> <button className="btn hidden lg:block ml-3 bg-[#FEA116] text-black hover:text-white">Service</button></Link>
+            <Link to={`/What_We_Do`}> <button className="btn hidden lg:block ml-3 bg-[#FEA116] text-black hover:text-white">Service</button></Link>
           </div>
         </div>
       </nav>
