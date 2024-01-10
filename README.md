@@ -7,6 +7,22 @@
 kbp penawar is a Hospitality Service Website. It aims to reach their products and services to public. This repository houses the source code, documentation, and resources related to Home ,Our Company
 What We Do ,Our Partners ,Career ,Gallery and Contact sections.
 
+## Key Features
+
+  - Attractive Header
+  - Respossive Design
+  - Smooth Navigation and Routing (React-Router dom)
+  - Header + Dropdown menu
+  - What'sUp redirection
+  - Product Filter gallery
+  - Home
+  -Our Company
+  -What We Do
+  -Our Partners
+  -Career
+  -Gallery
+  -Contact
+
 ## Installation
 
 Before getting started, ensure you have Node.js and npm installed on your machine.
@@ -42,19 +58,7 @@ To run tests:
 npm test
 ```
 
-## Key Features
 
-  - Attractive Header
-  - Header + Dropdown menu
-  - What'sUp redirection
-  - Product Filter gallery
-  - Home
-  -Our Company
-  -What We Do
-  -Our Partners
-  -Career
-  -Gallery
-  -Contac
 
 
 ## Technologies Used
